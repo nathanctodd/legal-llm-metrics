@@ -1,0 +1,70 @@
+============================================================
+Evaluation report — FIXED_full_law_results.csv
+N = 1534
+============================================================
+
+── Accuracy ──────────────────────────────────────────────────
+  Gemma (base)          0.4094  (628/1534)
+  Gemma-IT              0.4563  (700/1534)
+
+── Classification Report ─────────────────────────────────────
+
+  Gemma (base)
+                  precision    recall  f1-score   support
+    
+               A       0.36      0.37      0.37       377
+               B       0.40      0.34      0.37       367
+               C       0.43      0.48      0.45       415
+               D       0.44      0.44      0.44       375
+    
+        accuracy                           0.41      1534
+       macro avg       0.41      0.41      0.41      1534
+    weighted avg       0.41      0.41      0.41      1534
+
+  Gemma-IT
+                  precision    recall  f1-score   support
+    
+               A       0.42      0.43      0.43       377
+               B       0.44      0.49      0.47       367
+               C       0.53      0.43      0.47       415
+               D       0.44      0.47      0.46       375
+    
+        accuracy                           0.46      1534
+       macro avg       0.46      0.46      0.46      1534
+    weighted avg       0.46      0.46      0.46      1534
+
+  → fixed_results/full_law_plots/confusion_matrices.png
+
+── TPR / FPR per class (one-vs-rest) ────────────────────────
+  Class   Model                      TPR     FPR     TNR     FNR
+  -----  ----------------------  ------  ------  ------  ------
+  A       Gemma (base)             0.369   0.212   0.788   0.631
+  A       Gemma-IT                 0.430   0.191   0.809   0.570
+  B       Gemma (base)             0.341   0.160   0.840   0.659
+  B       Gemma-IT                 0.493   0.196   0.804   0.507
+  C       Gemma (base)             0.480   0.234   0.766   0.520
+  C       Gemma-IT                 0.431   0.144   0.856   0.569
+  D       Gemma (base)             0.440   0.183   0.817   0.560
+  D       Gemma-IT                 0.475   0.192   0.808   0.525
+
+  → fixed_results/full_law_plots/roc_curves.png
+
+── Calibration (ECE) ─────────────────────────────────────────
+  Gemma (base)            ECE = 0.0415
+  Gemma-IT                ECE = 0.4037
+
+  → fixed_results/full_law_plots/calibration.png
+
+  → fixed_results/full_law_plots/confidence_distribution.png
+
+  → fixed_results/full_law_plots/accuracy_by_confidence.png
+
+── Model Agreement ───────────────────────────────────────────
+  Agree (both correct):    404  (26.34%)
+  Agree (both wrong):      366  (23.86%)
+  Disagree:                764  (49.80%)
+  On disagreements — base correct: 224, IT correct: 296, neither: 244
+
+  → fixed_results/full_law_plots/answer_distribution.png
+
+============================================================

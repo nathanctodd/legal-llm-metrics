@@ -1,0 +1,70 @@
+============================================================
+Evaluation report — FIXED_basque_results.csv
+N = 100
+============================================================
+
+── Accuracy ──────────────────────────────────────────────────
+  Gemma (base)          0.3800  (38/100)
+  Gemma-IT              0.3100  (31/100)
+
+── Classification Report ─────────────────────────────────────
+
+  Gemma (base)
+                  precision    recall  f1-score   support
+    
+               A       0.38      0.22      0.28        27
+               B       0.47      0.27      0.34        26
+               C       0.37      0.50      0.43        20
+               D       0.36      0.56      0.43        27
+    
+        accuracy                           0.38       100
+       macro avg       0.39      0.39      0.37       100
+    weighted avg       0.39      0.38      0.37       100
+
+  Gemma-IT
+                  precision    recall  f1-score   support
+    
+               A       0.36      0.15      0.21        27
+               B       0.36      0.54      0.43        26
+               C       0.19      0.15      0.17        20
+               D       0.29      0.37      0.33        27
+    
+        accuracy                           0.31       100
+       macro avg       0.30      0.30      0.28       100
+    weighted avg       0.31      0.31      0.29       100
+
+  → fixed_results/basque_plots/confusion_matrices.png
+
+── TPR / FPR per class (one-vs-rest) ────────────────────────
+  Class   Model                      TPR     FPR     TNR     FNR
+  -----  ----------------------  ------  ------  ------  ------
+  A       Gemma (base)             0.222   0.137   0.863   0.778
+  A       Gemma-IT                 0.148   0.096   0.904   0.852
+  B       Gemma (base)             0.269   0.108   0.892   0.731
+  B       Gemma-IT                 0.538   0.338   0.662   0.462
+  C       Gemma (base)             0.500   0.212   0.787   0.500
+  C       Gemma-IT                 0.150   0.163   0.838   0.850
+  D       Gemma (base)             0.556   0.370   0.630   0.444
+  D       Gemma-IT                 0.370   0.329   0.671   0.630
+
+  → fixed_results/basque_plots/roc_curves.png
+
+── Calibration (ECE) ─────────────────────────────────────────
+  Gemma (base)            ECE = 0.0845
+  Gemma-IT                ECE = 0.4883
+
+  → fixed_results/basque_plots/calibration.png
+
+  → fixed_results/basque_plots/confidence_distribution.png
+
+  → fixed_results/basque_plots/accuracy_by_confidence.png
+
+── Model Agreement ───────────────────────────────────────────
+  Agree (both correct):     16  (16.00%)
+  Agree (both wrong):       30  (30.00%)
+  Disagree:                 54  (54.00%)
+  On disagreements — base correct: 22, IT correct: 15, neither: 17
+
+  → fixed_results/basque_plots/answer_distribution.png
+
+============================================================
