@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Safety Evaluation Scorecard for a Legal AI Assistant</title>
+<style>
+  :root {
+    --navy: #232D4B;
+    --navy2: #1B2340;
+    --orange: #E57200;
+    --green: #4ADE80;
+    --red: #F87171;
+    --amber: #FBBF24;
+    --slate: #94A3B8;
+    --card: rgba(255,255,255,0.06);
+    --line: rgba(255,255,255,0.14);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-snap-type: y mandatory; }
+  body {
+    background: var(--navy);
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  section.slide {
+    min-height: 100vh;
+    scroll-snap-align: start;
+    padding: 56px 72px 64px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: linear-gradient(180deg, var(--navy) 0%, var(--navy2) 100%);
+    border-bottom: 1px solid var(--line);
+  }
+  .slide-head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 8px; }
+  .kicker { color: var(--orange); font-size: 15px; letter-spacing: 2px; text-transform: uppercase; font-weight: 600; }
+  .meta { color: rgba(255,255,255,0.45); font-size: 14px; display: flex; gap: 14px; align-items: center; }
+  .timechip { border: 1px solid var(--line); border-radius: 999px; padding: 3px 12px; color: var(--orange); font-weight: 600; }
+  h1 { font-size: 54px; font-weight: 600; line-height: 1.12; }
+  h2 { font-size: 40px; font-weight: 600; margin: 6px 0 22px; line-height: 1.15; }
+  h3 { font-size: 20px; font-weight: 600; margin-bottom: 10px; }
+  p.lead { font-size: 20px; color: rgba(255,255,255,0.82); line-height: 1.5; max-width: 1050px; }
+  .grow { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+  .cards { display: grid; gap: 18px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 20px 22px; }
+  .card .label { font-size: 14px; letter-spacing: 1px; text-transform: uppercase; color: rgba(255,255,255,0.55); margin-bottom: 6px; }
+  .big { font-size: 44px; font-weight: 600; }
+  .big small { font-size: 20px; color: rgba(255,255,255,0.55); font-weight: 400; }
+  .sub { font-size: 15px; color: rgba(255,255,255,0.65); margin-top: 6px; line-height: 1.4; }
+  .good { color: var(--green); } .bad { color: var(--red); } .warn { color: var(--amber); } .accent { color: var(--orange); }
+  /* bar charts */
+  .chart { display: flex; flex-direction: column; gap: 12px; }
+  .bar-row { display: grid; grid-template-columns: 210px 1fr 86px; align-items: center; gap: 14px; font-size: 16px; }
+  .bar-row .name { color: rgba(255,255,255,0.8); text-align: right; }
+  .track { position: relative; height: 26px; background: rgba(255,255,255,0.08); border-radius: 6px; overflow: hidden; }
+  .fill { position: absolute; inset: 0 auto 0 0; border-radius: 6px; }
+  .fill.orange { background: var(--orange); }
+  .fill.slate { background: var(--slate); }
+  .fill.red { background: var(--red); }
+  .fill.green { background: var(--green); }
+  .val { font-weight: 600; font-size: 18px; }
+  .chance { position: absolute; top: 0; bottom: 0; width: 0; border-left: 2px dashed rgba(255,255,255,0.6); z-index: 2; }
+  .legend { display: flex; gap: 22px; margin-top: 14px; font-size: 14px; color: rgba(255,255,255,0.7); }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 3px; margin-right: 7px; vertical-align: -1px; }
+  footer.slide-foot { margin-top: 26px; font-size: 14px; color: rgba(255,255,255,0.4); }
+  .cue { display: none; margin-top: 18px; padding: 12px 16px; border-left: 3px solid var(--orange);
+         background: rgba(229,114,0,0.08); color: rgba(255,255,255,0.85); font-size: 15px; font-style: italic; border-radius: 0 8px 8px 0; }
+  body.cues .cue { display: block; }
+  .hint { position: fixed; left: 16px; bottom: 12px; font-size: 12px; color: rgba(255,255,255,0.35); z-index: 10; }
+  .pager { position: fixed; right: 16px; bottom: 12px; font-size: 13px; color: rgba(255,255,255,0.5); z-index: 10; }
+  .progress { position: fixed; top: 0; left: 0; height: 3px; background: var(--orange); width: 0; z-index: 10; transition: width .2s; }
+  a { color: var(--orange); text-decoration: none; }
+  table.simple { border-collapse: collapse; font-size: 16px; }
+  table.simple th, table.simple td { border: 1px solid var(--line); padding: 9px 16px; text-align: center; }
+  table.simple th { background: rgba(255,255,255,0.07); font-weight: 600; }
+  table.simple td.rowname { text-align: left; color: rgba(255,255,255,0.8); }
+  ul.bullets { list-style: none; display: flex; flex-direction: column; gap: 16px; font-size: 19px; line-height: 1.5; color: rgba(255,255,255,0.85); max-width: 1050px; }
+  ul.bullets li { padding-left: 26px; position: relative; }
+  ul.bullets li::before { content: ""; position: absolute; left: 0; top: 11px; width: 10px; height: 10px; border-radius: 3px; background: var(--orange); }
+  .flow { display: flex; align-items: stretch; gap: 0; margin: 10px 0 6px; }
+  .flow .step { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; flex: 1; }
+  .flow .arrow { align-self: center; padding: 0 12px; color: var(--orange); font-size: 26px; font-weight: 600; }
+  .pill { display: inline-block; border: 1px solid var(--line); border-radius: 999px; padding: 4px 14px; font-size: 14px; color: rgba(255,255,255,0.7); margin-right: 8px; }
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<div class="hint">&larr; &rarr; navigate &middot; N = talk track</div>
+<div class="pager" id="pager"></div>
+
+<!-- 1. TITLE -->
+<section class="slide">
+  <div class="slide-head"><span class="kicker">DS6051 &middot; Decoding Large Language Models</span>
+    <span class="meta"><span>1 / 12</span><span class="timechip">~0:15</span></span></div>
+  <div class="grow">
+    <h1>Safety Evaluation Scorecard<br>for a Legal AI Assistant</h1>
+    <p class="lead" style="margin-top:22px">What should we measure, why should we measure it, and how can we measure it,
+      when a general-purpose LLM is deployed as a consumer-facing legal assistant?</p>
+    <p class="lead" style="margin-top:26px; font-size:18px;">Hudson Noyes &middot; Ryan Dallas &middot; Lino De Ros &middot; Jackson Kennedy &middot; Nathan Todd</p>
+    <p style="margin-top:14px; font-size:15px;">
+      <span class="pill">github.com/nathanctodd/legal-llm-metrics</span>
+      <span class="pill">devpost.com/software/uva-decoding-llms-project</span>
+    </p>
+  </div>
+  <aside class="cue">We built a safety scorecard for a legal AI assistant: five metrics, two models, three languages, and a clear deployment verdict.</aside>
+</section>
+
+<!-- 2. PREMISE -->
+<section class="slide">
+  <div class="slide-head"><span class="kicker">The Premise</span>
+    <span class="meta"><span>2 / 12</span><span class="timechip">~0:30</span></span></div>
+  <h2>A general-purpose model, deployed as if it were a legal product</h2>
+  <div class="grow">
+    <div class="cards" style="grid-template-columns: 1fr 1fr 1fr;">
+      <div class="card"><div class="label">Models under test</div>
+        <div class="big" style="font-size:26px; line-height:1.3;">gemma-4-E2B<br>gemma-4-E2B-it</div>
+        <div class="sub">Base vs. instruction-tuned. Greedy decoding, answer-letter logits for multiple choice. Evaluation only, no training or fine-tuning.</div></div>
+      <div class="card"><div class="label">Datasets</div>
+        <div class="big" style="font-size:26px; line-height:1.3;">MMLU professional_law<br>TruthfulQA Law</div>
+        <div class="sub">A fixed 100-question bar-exam subset (seed 42), translated into Spanish and Basque and paired by id, plus TruthfulQA's 64-question adversarial law slice for judge-scored metrics.</div></div>
+      <div class="card"><div class="label">Scorecard</div>
+        <div class="big" style="font-size:26px; line-height:1.3;">5 metrics</div>
+        <div class="sub">Factual consistency, sycophancy, calibration, cross-lingual shift, citation accuracy. Each with a why, a how, and what it cannot tell us.</div></div>
+    </div>
+  </div>
+  <aside class="cue">The assignment framing: pretend this open-weight model was built for our use-case. Ours is a legal assistant, where wrong-but-confident answers hurt real people.</aside>
+</section>
+
+<!-- 3. SCORECARD AT A GLANCE -->
+<section class="slide">
+  <div class="slide-head"><span class="kicker">Scorecard at a Glance</span>
+    <span class="meta"><span>3 / 12</span><span class="timechip">~0:30</span></span></div>
+  <h2>Five metrics, three independent failures</h2>
+  <div class="grow">
+    <div class="cards" style="grid-template-columns: repeat(5, 1fr);">
+      <div class="card"><div class="label">Factual consistency</div><div class="big warn">42%<small> final acc.</small></div>
+        <div class="sub">IT model, after user pressure (base 33%)</div></div>
+      <div class="card"><div class="label">Sycophancy</div><div class="big bad">12%<small> flips</small></div>
+        <div class="sub">Correct answers abandoned for the user's wrong one (base 7%)</div></div>
+      <div class="card"><div class="label">Calibration</div><div class="big bad">0.348<small> ECE</small></div>
+        <div class="sub">Verbalized confidence vs. judged truth, n=64 TruthfulQA-Law</div></div>
+      <div class="card"><div class="label">Cross-lingual shift</div><div class="big bad">0.646<small> LPI</small></div>
+        <div class="sub">Basque parity for the IT model (Spanish 0.938)</div></div>
+      <div class="card"><div class="label">Citation accuracy</div><div class="big warn">0.42<small> recall</small></div>
+        <div class="sub">43/102 claims cited; all 9 verifiable citations real</div></div>
+    </div>
+    <p class="lead" style="margin-top:26px">Both models stay under 50% accuracy on bar-exam questions in every language. The scorecard describes <em>how</em> they fail, not whether a marginal product could ship.</p>
+  </div>
+  <aside class="cue">The headline: red across the board. The next five slides take each metric in turn: what, why, how, and the result.</aside>
+</section>
+
+<!-- 4. FACTUAL CONSISTENCY -->
+<section class="slide">
+  <div class="slide-head"><span class="kicker">Metric 1 &middot; Factual Consistency</span>
+    <span class="meta"><span>4 / 12</span><span class="timechip">~0:25</span></span></div>
+  <h2>Does the answer survive a short conversation?</h2>
+  <p class="lead">Each model answers 100 bar-exam questions, gets challenged by a confident user asserting a wrong answer, then gives a final answer. Final accuracy is the consistency measure: users act on the last thing the assistant says.</p>
+  <div class="grow">
+    <div class="chart" style="max-width:980px">
+      <div class="bar-row"><span class="name">gemma-4-E2B (base) initial</span><span class="track"><span class="fill slate" style="width:36%"></span></span><span class="val">36%</span></div>
+      <div class="bar-row"><span class="name">gemma-4-E2B (base) final</span><span class="track"><span class="fill slate" style="width:33%"></span></span><span class="val">33%</span></div>
+      <div class="bar-row"><span class="name">gemma-4-E2B-it initial</span><span class="track"><span class="fill orange" style="width:44%"></span></span><span class="val">44%</span></div>
+      <div class="bar-row"><span class="name">gemma-4-E2B-it final</span><span class="track"><span class="fill orange" style="width:41%"></span></span><span class="val">41%&ndash;42%</span></div>
+    </div>
+    <p class="lead" style="margin-top:22px">Both models lose about three points of accuracy under pressure. The instruction-tuned model stays the more accurate of the two, but the limitation stands: we grade the final answer letter, not the quality of the explanation around it.</p>
+  </div>
+  <aside class="cue">Consistency here means holding a legally grounded answer across turns. Three points of accuracy evaporate the moment a user pushes back.</aside>
+</section>
+
+<!-- 5. SYCOPHANCY -->
+<section class="slide">
+  <div class="slide-head"><span class="kicker">Metric 2 &middot; Sycophancy</span>
+    <span class="meta"><span>5 / 12</span><span class="timechip">~0:30</span></span></div>
+  <h2>The aligned model is the agreeable one</h2>
+  <p class="lead">Same pipeline, different question: when the user confidently asserts a wrong answer, does the model cave?</p>
+  <div class="grow">
+    <div class="chart" style="max-width:980px">
+      <div class="bar-row"><span class="name">Changes answer &middot; base</span><span class="track"><span class="fill slate" style="width:22%"></span></span><span class="val">22%</span></div>
+      <div class="bar-row"><span class="name">Changes answer &middot; IT</span><span class="track"><span class="fill red" style="width:80%"></span></span><span class="val bad">80%</span></div>
+      <div class="bar-row"><span class="name">Gold&rarr;false flip &middot; base</span><span class="track"><span class="fill slate" style="width:7%"></span></span><span class="val">7%</span></div>
+      <div class="bar-row"><span class="name">Gold&rarr;false flip &middot; IT</span><span class="track"><span class="fill red" style="width:12%"></span></span><span class="val bad">12%</span></div>
+    </div>
+    <p class="lead" style="margin-top:22px">Instruction tuning makes the model dramatically more deferential: it changes its answer 80% of the time under a single challenge, and abandons a <em>correct</em> answer for the user's wrong one in 12% of cases. A client who confidently misstates the law usually takes the assistant with them.</p>
+  </div>
+  <aside class="cue">This is one scripted pressure phrasing, one turn. Real users escalate. And the failure grows with alignment, not despite it.</aside>
+</section>
+
+<!-- 6. CALIBRATION -->
+<section class="slide">
+  <div class="slide-head"><span class="kicker">Metric 3 &middot; Calibration</span>
+    <span class="meta"><span>6 / 12</span><span class="timechip">~0:35</span></span></div>
+  <h2>Most confident exactly where most wrong</h2>
+  <p class="lead">Two complementary studies. Token-level: answer-letter probabilities on MMLU across languages. Verbalized: the model self-reports a 1&ndash;10 confidence on TruthfulQA-Law, graded by an independent judge.</p>
+  <div class="grow">
+    <div class="cards" style="grid-template-columns: 1fr 1fr 1fr; margin-bottom:20px;">
+      <div class="card"><div class="label">Overall (verbalized, n=64)</div><div class="big bad">ECE 0.348</div><div class="sub">Brier 0.352. Token-level ECE: base 0.093 vs. IT 0.410 on English MMLU.</div></div>
+      <div class="card"><div class="label">Adversarial prompts</div><div class="big bad">37.9% <small>acc.</small> / 87.6% <small>conf.</small></div><div class="sub">ECE 0.497. Overconfidence peaks exactly on the trick questions.</div></div>
+      <div class="card"><div class="label">Non-adversarial</div><div class="big warn">71.4% <small>acc.</small></div><div class="sub">ECE 0.243, gap 0.100. Still overconfident, less dangerously.</div></div>
+    </div>
+    <p class="lead">36 of 64 answers land in the top confidence bin (0.8&ndash;1.0), yet only <span class="bad">52.8%</span> of those are correct: the model's most confident answers are barely better than a coin flip. Confidence cannot gate escalation to a human lawyer without independent recalibration.</p>
+  </div>
+  <aside class="cue">Instruction tuning bought accuracy and paid in overconfidence: token-level ECE jumps from 0.09 to 0.41, and stated confidence stays near 88% on questions it gets wrong most of the time.</aside>
+</section>
+
+<!-- 7. CROSS-LINGUAL SHIFT -->
+<section class="slide">
+  <div class="slide-head"><span class="kicker">Metric 4 &middot; Cross-Lingual Shift</span>
+    <span class="meta"><span>7 / 12</span><span class="timechip">~0:35</span></span></div>
+  <h2>Capability collapses in the low-resource language</h2>
+  <p class="lead">The same 100 questions, glossary-controlled translations, paired by id across English, Spanish, and Basque. Chance is 25% (dashed line).</p>
+  <div class="grow">
+    <div class="chart" style="max-width:980px">
+      <div class="bar-row"><span class="name">English &middot; base / IT</span><span class="track"><span class="chance" style="left:25%"></span><span class="fill slate" style="width:39%"></span></span><span class="val">39%</span></div>
+      <div class="bar-row"><span class="name"></span><span class="track"><span class="chance" style="left:25%"></span><span class="fill orange" style="width:48%"></span></span><span class="val">48%</span></div>
+      <div class="bar-row"><span class="name">Spanish &middot; base / IT</span><span class="track"><span class="chance" style="left:25%"></span><span class="fill slate" style="width:37%"></span></span><span class="val">37%</span></div>
+      <div class="bar-row"><span class="name"></span><span class="track"><span class="chance" style="left:25%"></span><span class="fill orange" style="width:45%"></span></span><span class="val">45%</span></div>
+      <div class="bar-row"><span class="name">Basque &middot; base / IT</span><span class="track"><span class="chance" style="left:25%"></span><span class="fill slate" style="width:38%"></span></span><span class="val">38%</span></div>
+      <div class="bar-row"><span class="name"></span><span class="track"><span class="chance" style="left:25%"></span><span class="fill red" style="width:31%"></span></span><span class="val bad">31%</span></div>
+    </div>
+    <div class="legend"><span><span class="dot" style="background:var(--slate)"></span>gemma-4-E2B (base)</span>
+      <span><span class="dot" style="background:var(--orange)"></span>gemma-4-E2B-it</span>
+      <span><span class="dot" style="background:var(--red)"></span>the collapse</span></div>
+    <p class="lead" style="margin-top:20px">The instruction-tuned model loses a third of its English capability in Basque (LPI <span class="bad">0.646</span>), landing <em>below the base model</em> on identical items, while Spanish holds (LPI 0.938). Deployed multilingually, it would silently serve Basque speakers a categorically worse product.</p>
+  </div>
+  <aside class="cue">This is the equal-access finding: instruction-tuning gains concentrate in high-resource languages. The base model's flat profile is uniform weakness near chance, not robustness.</aside>
+</section>
+
+<!-- 8. CITATION ACCURACY -->
+<section class="slide">
+  <div class="slide-head"><span class="kicker">Metric 5 &middot; Citation Accuracy</span>
+    <span class="meta"><span>8 / 12</span><span class="timechip">~0:25</span></span></div>
+  <h2>Under-citation, not ghost citation, at this scale</h2>
+  <p class="lead">Four conditions: does the citation exist, is it precise, are quotes faithful to it, and how many claims carry one at all.</p>
+  <div class="grow">
+    <div class="cards" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+      <div class="card"><div class="label">Attach rate</div><div class="big warn">43 / 102</div><div class="sub">claims carried any citation (corpus recall 0.42)</div></div>
+      <div class="card"><div class="label">Verifiable citations</div><div class="big good">9 / 9 real</div><div class="sub">4 case-law (incl. Miranda), 5 U.S.C. All resolved to real authorities.</div></div>
+      <div class="card"><div class="label">Unverifiable by design</div><div class="big">34</div><div class="sub">named instruments (contracts, generic acts), not fake, just uncheckable</div></div>
+      <div class="card"><div class="label">The caveat</div><div class="big warn">n = 9</div><div class="sub">far too few verifiable citations to certify the model never fabricates case law</div></div>
+    </div>
+    <p class="lead" style="margin-top:24px">Fabricated citations are the canonical legal-AI failure; attorneys have been sanctioned for filing AI-invented cases. Here the dominant failure is the model not citing at all: fewer than half of claims carry any authority.</p>
+  </div>
+  <aside class="cue">Good news and bad news: nothing fabricated in this sample, but the sample of verifiable citations is nine. The real failure is silence, not lies.</aside>
+</section>
+
+<!-- 9. LLM AS JUDGE -->
+<section class="slide">
+  <div class="slide-head"><span class="kicker">Methodology &middot; LLM-as-Judge</span>
+    <span class="meta"><span>9 / 12</span><span class="timechip">~0:25</span></span></div>
+  <h2>The judge is part of the measurement</h2>
+  <div class="grow">
+    <div class="flow">
+      <div class="step"><h3>Input</h3><div class="sub" style="font-size:16px">Question + the model's answer + TruthfulQA's reference correct and incorrect answers</div></div>
+      <div class="arrow">&rarr;</div>
+      <div class="step"><h3>Judge: Qwen2.5-7B-Instruct</h3><div class="sub" style="font-size:16px">A different model family, so the model under test never grades itself</div></div>
+      <div class="arrow">&rarr;</div>
+      <div class="step"><h3>Verdict</h3><div class="sub" style="font-size:16px">Truthful yes/no, read from Yes/No token logits rather than parsed free text</div></div>
+    </div>
+    <div class="chart" style="max-width:980px; margin-top:28px;">
+      <div class="bar-row"><span class="name">Graded accuracy &middot; Qwen2.5-3B judge</span><span class="track"><span class="fill red" style="width:4%"></span></span><span class="val bad">~4%</span></div>
+      <div class="bar-row"><span class="name">Graded accuracy &middot; Qwen2.5-7B judge</span><span class="track"><span class="fill green" style="width:65%"></span></span><span class="val good">~65%</span></div>
+    </div>
+    <p class="lead" style="margin-top:22px">Per the assignment we compared judge models. Swapping the 3B judge for the 7B multiplied graded accuracy sixteen-fold on the same answers. LLM-as-judge is semi-reliable and model-dependent: the verdict you get depends on who you ask.</p>
+  </div>
+  <aside class="cue">Same answers, two judges, wildly different scores. Any judge-graded number in this scorecard inherits that uncertainty.</aside>
+</section>
+
+<!-- 10. LIMITATIONS -->
+<section class="slide">
+  <div class="slide-head"><span class="kicker">Limitations</span>
+    <span class="meta"><span>10 / 12</span><span class="timechip">~0:20</span></span></div>
+  <h2>What these measurements cannot tell you</h2>
+  <div class="grow">
+    <ul class="bullets">
+      <li>Multiple-choice bar-exam questions measure knowledge recall, not open-ended advice or drafting; at 100 items per language, few-point differences are within noise (the Basque collapse is far larger).</li>
+      <li>Translations were LLM-generated with glossary control and validation, but not reviewed by native speakers; documented caveats likely make the Basque estimate conservative.</li>
+      <li>Sycophancy uses one scripted pressure pattern; token-level ECE is not the verbalized certainty users actually see.</li>
+      <li>Judge-graded metrics inherit judge error, results are judge-dependent, and n = 64 makes the TruthfulQA ECE noisy.</li>
+    </ul>
+  </div>
+  <aside class="cue">Every number comes with a boundary. The rubric asks what a metric does not capture, and each of ours has a named blind spot.</aside>
+</section>
+
+<!-- 11. BONUS METRIC -->
+<section class="slide">
+  <div class="slide-head"><span class="kicker">Proposed Metric (Bonus)</span>
+    <span class="meta"><span>11 / 12</span><span class="timechip">~0:25</span></span></div>
+  <h2>Language Parity Index</h2>
+  <div class="grow">
+    <div class="cards" style="grid-template-columns: 1.2fr 1fr;">
+      <div class="card">
+        <div class="big accent" style="font-size:34px">LPI(language) = accuracy(language) / accuracy(English)</div>
+        <div class="sub" style="font-size:17px; margin-top:12px">A dimensionless number encoding what fraction of the English-language product non-English users actually get. Comparable across models and datasets.</div>
+      </div>
+      <div class="card">
+        <div class="label">Our results</div>
+        <div class="sub" style="font-size:17px">IT model: Spanish <b class="good">0.938</b>, Basque <b class="bad">0.646</b><br><br>
+        Failure mode, demonstrated by our own base model: uniform weakness shows high parity (0.974 in Basque while barely beating chance). LPI must ship with absolute accuracy and the chance baseline.</div>
+      </div>
+    </div>
+    <p class="lead" style="margin-top:24px">A reasonable deployment gate: <span class="accent">LPI &ge; 0.9 for every supported language</span>, with English accuracy above a competence floor.</p>
+  </div>
+  <aside class="cue">Our bonus metric distills the cross-lingual finding into one reusable number, with its own failure mode named and guarded.</aside>
+</section>
+
+<!-- 12. CONCLUSION -->
+<section class="slide">
+  <div class="slide-head"><span class="kicker">Conclusion</span>
+    <span class="meta"><span>12 / 12</span><span class="timechip">~0:35</span></span></div>
+  <h2>Three independent failures, three launch gates</h2>
+  <div class="grow">
+    <div class="cards" style="grid-template-columns: 1fr 1fr 1fr;">
+      <div class="card"><div class="label">Fails on confidence</div><div class="big bad">ECE 0.410</div>
+        <div class="sub">Gate: recalibrated confidence before any escalation logic</div></div>
+      <div class="card"><div class="label">Fails under pressure</div><div class="big bad">80%</div>
+        <div class="sub">Gate: adversarial multi-turn pressure testing</div></div>
+      <div class="card"><div class="label">Fails Basque speakers</div><div class="big bad">LPI 0.646</div>
+        <div class="sub">Gate: per-language parity requirements</div></div>
+    </div>
+    <p class="lead" style="margin-top:26px">Neither variant should be deployed as a legal assistant in any language. Adding a language is a safety decision, not a localization checkbox.</p>
+  </div>
+  <footer class="slide-foot">github.com/nathanctodd/legal-llm-metrics &middot; DS6051 &middot; July 8, 2026 &middot; Claude was used as an assistant in code generation and deliverable production.</footer>
+  <aside class="cue">The verdict: do not deploy. But the scorecard's real product is the gates: fix confidence, survive pressure, prove parity, then talk about shipping.</aside>
+</section>
+
+<script>
+  const slides = [...document.querySelectorAll("section.slide")];
+  const pager = document.getElementById("pager");
+  const progress = document.getElementById("progress");
+  function current() {
+    const y = window.scrollY + window.innerHeight / 2;
+    return Math.max(0, slides.findIndex(s => y < s.offsetTop + s.offsetHeight));
+  }
+  function update() {
+    const i = current();
+    pager.textContent = (i + 1) + " / " + slides.length;
+    progress.style.width = ((i + 1) / slides.length * 100) + "%";
+  }
+  window.addEventListener("scroll", update, { passive: true });
+  window.addEventListener("keydown", e => {
+    if (e.key === "ArrowRight" || e.key === "ArrowDown" || e.key === "PageDown" || e.key === " ") {
+      e.preventDefault(); slides[Math.min(slides.length - 1, current() + 1)].scrollIntoView({ behavior: "smooth" });
+    } else if (e.key === "ArrowLeft" || e.key === "ArrowUp" || e.key === "PageUp") {
+      e.preventDefault(); slides[Math.max(0, current() - 1)].scrollIntoView({ behavior: "smooth" });
+    } else if (e.key.toLowerCase() === "n") {
+      document.body.classList.toggle("cues");
+    }
+  });
+  update();
+</script>
+</body>
+</html>
