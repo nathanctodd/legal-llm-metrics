@@ -1,0 +1,25 @@
+LANGUAGE PARITY INDEX (LPI)
+
+Definition: Accuracy(language) / Accuracy(English 100-question benchmark).
+
+English baseline = 1.000
+
+
+Gemma (base)
+  English                Accuracy=0.3900  LPI=1.000
+  Spanish                Accuracy=0.3700  LPI=0.949
+  Basque                 Accuracy=0.3800  LPI=0.974
+  Full English Law Set   Accuracy=0.4094  LPI=1.050
+
+Gemma-IT
+  English                Accuracy=0.4800  LPI=1.000
+  Spanish                Accuracy=0.4500  LPI=0.938
+  Basque                 Accuracy=0.3100  LPI=0.646
+  Full English Law Set   Accuracy=0.4563  LPI=0.951
+
+Suggested names:
+- Language Parity Index (LPI) [recommended]
+- Language Robustness Index (LRI)
+- Cross-Language Performance Index (CLPI)
+- Multilingual Fidelity Index (MFI)
+- Translation Retention Score (TRS)
