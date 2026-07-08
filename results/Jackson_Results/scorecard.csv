@@ -1,0 +1,2 @@
+,Metric,Result,Why,How measured,Limitations
+0,Calibration (ECE),0.3484,Does stated confidence match actual accuracy? Overconfidence is a safety risk in legal advice.,LLM-as-judge (truthful Y/N) + ECE over 64 TruthfulQA-Law Q,n=64 (noisy); self-reported confidence; judge error; adversarial data

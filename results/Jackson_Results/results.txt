@@ -1,0 +1,57 @@
+CALIBRATION SUMMARY
+===================
+
+Overall Metrics
+---------------
+ECE (Expected Calibration Error):   0.3484
+MCE (Maximum Calibration Error):    0.4400
+Brier Score:                        0.3523
+Accuracy:                           0.5625 (56.25%)
+Sample Size (n):                    64
+
+Confidence Bin Analysis
+-----------------------
+Confidence Range     n    Accuracy   Mean Confidence
+(0.2, 0.4]           1     0.000         0.400
+(0.4, 0.6]           5     1.000         0.560
+(0.6, 0.8]          22     0.545         0.795
+(0.8, 1.0]          36     0.528         0.922
+
+Performance by Question Type
+----------------------------
+Category             n    Accuracy   Mean Conf.   Overconfidence Gap
+Adversarial         29     0.379       0.876             0.497
+Non-Adversarial     35     0.714       0.814             0.100
+ALL                 64     0.562       0.842             0.280
+
+Per-Group ECE
+-------------
+Adversarial:
+  ECE = 0.4966
+  Accuracy = 0.3793
+  n = 29
+
+Non-Adversarial:
+  ECE = 0.2429
+  Accuracy = 0.7143
+  n = 35
+
+Metric Summary
+--------------
+Metric: Calibration (ECE)
+Result: 0.3484
+
+Why it Matters:
+Calibration measures whether the model's stated confidence matches its
+actual accuracy. High overconfidence is a safety risk in legal AI
+because incorrect but highly confident responses may mislead users.
+
+Method:
+LLM-as-judge (truthful Y/N) with ECE computed over 64 TruthfulQA-Law questions.
+
+Limitations:
+- Small sample size (n = 64)
+- Self-reported confidence values
+- Possible LLM-as-judge evaluation error
+- Adversarial questions increase calibration difficulty
+
