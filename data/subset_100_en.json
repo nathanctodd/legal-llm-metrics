@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 0,
+    "question": "A rider entered a subway car at the 42nd Street station. Because all of the seats were occupied, the rider stood in the subway car and grabbed a pole to secure his balance. As the subway car was proceeding downtown, the rider glanced at a girl standing next to him. Suddenly, the subway car made an unexpected stop. The rider momentarily lost his balance and grabbed the girl around the waist (to avoid falling). Once the rider regained his balance, he removed his hands from the girl's waist and grasped the pole again. In a civil action instituted by the girl against the rider, he will most likely be found",
+    "choices": [
+      "liable for battery.",
+      "liable, because the rider believed that the girl consented to the contact under the circumstances.",
+      "not liable, because the rider's conduct was socially acceptable under the circumstances.",
+      "not liable, because the girl was not harmed by the contact."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 1,
+    "question": "A mother took her five-year-old child to a hospital emergency room for treatment. A doctor on the hospital staff molested the child while treating her. At the time, no one was in the treatment room except the doctor and the child; the mother had left the room to get a cup of coffee. Two weeks later, when the child told her mother what had occurred in the treatment room, the mother suffered severe emotional distress that caused her to become physically ill. In an action against the doctor by the mother on her own behalf to recover for intentional infliction of emotional distress, is the mother likely to prevail?",
+    "choices": [
+      "No, because the mother was contributorily negligent in leaving the child alone with the doctor during treatment.",
+      "No, because the mother was neither the direct victim of the doctor's conduct nor a contemporaneous witness.",
+      "Yes, because the doctor's conduct was outrageous.",
+      "Yes, because the mother's distress was the natural and foreseeable consequence of the doctor's conduct. "
+    ],
+    "answer": 1
+  },
+  {
+    "id": 2,
+    "question": "A wedding planner owned a summer cottage on the lake. In order to facilitate the access to the cottage, which is located on a knoll above the lake, the wedding planner entered into an agreement with a neighbor, an adjoining land owner, whereby the neighbor, in writing, granted the wedding planner a right-of-way over a strip of land 30 feet in width and a quarter of a mile in length along the eastern margin of the neighbor's property. Without notif'ing the neighbor, the wedding planner proceeded with his plan to improve the roadbed by having the road asphalted in order to make it more accessible for motor vehicle traffic. Several years later, the neighbor started a sand business, which required him to do heavy hauling that subsequently destroyed the asphalted surface on the road. Ten years after the neighbor started his sand business, the wedding planner sold his lakefront property to an artist. Shortly after the artist took possession of the cottage and property, the neighbor erected wooden barriers across the roadway, thus obstructing the access to the artist's property. The interest that the wedding planner acquired in the access road may best be described as",
+    "choices": [
+      "an easement in gross.",
+      "an easement implied by prior use.",
+      "an easement by necessity.",
+      "an express easement."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 3,
+    "question": "A plaintiff has sued a defendant in a court of the state in which both parties reside. The plaintiff alleges only a cause of action arising under a federal statute, although state law provides a similar cause of action. The federal statute provides that claims under the statute can be brought in any court of competent jurisdiction. The statute has not yet been interpreted by any federal court. Should the state court hear the case?",
+    "choices": [
+      "No, because cases arising under federal law must be decided in federal court.",
+      "No, because state courts must abstain in cases arising under federal law until a federal court has decided the federal issue.",
+      "Yes, because state courts may not discriminate against cases arising under discriminate against cases arising under federal law.",
+      "Yes, because the parties cannot proceed in federal court since there is no diversity of citizenship."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 4,
+    "question": "A manager's competitor sent a defamatory letter to the manager accusing him of professional incompetence and calling him one of the worst businessmen in town. It was addressed to the manager. He read it, put it in a private drawer, and did not read it again. Later, he tried to sue the competitor for defamation as a result of the letter. Will the court likely grant the defendant's motion to dismiss, and on what grounds? Base your answer on the common law definition of defamation.",
+    "choices": [
+      "Yes, it will dismiss on the basis that the publication is made to the manager alone.",
+      "Yes, it will dismiss on the basis that the language is not damaging to the manager's reputation.",
+      "No, it will not dismiss because the circumstances show that all of the elements of defamation are all present.",
+      "No, it will not dismiss because a plaintiff in a defamatory action has an absolute right to a jury trial to prove defamation."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5,
+    "question": "A seller contracted to sell land to a buyer for $300,000. The contract provided that the closing would be 60 days after the contract was signed and that the seller would convey to the buyer a \"marketable title\" by a quitclaim deed at closing. The contract contained no other provisions regarding the title to be delivered to the buyer. A title search revealed that the land was subject to an unsatisfied $50,000 mortgage and a right-of-way easement over a portion of the land. The buyer now claims that the title is unmarketable and has refused to close. Is the buyer correct?",
+    "choices": [
+      "No, because nothing under these facts renders title unmarketable.",
+      "No, because the buyer agreed to accept a quitclaim deed. quitclaim deed.",
+      "Yes, because the right-of-way easement makes the title unmarketable.",
+      "Yes, because the unsatisfied mortgage makes the title unmarketable."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 6,
+    "question": "A plaintiff sued a defendant for injuries that the plaintiff suffered when he was struck by the defendant's car. At trial, the plaintiff testified that he was walking across the street inside a crosswalk at the time the defendant's car hit him. This action takes place in a jurisdiction that has a statute in effect requiring all motorists to stop and permit pedestrians to cross streets at designated crosswalks. The defendant contended that the plaintiff ran into the street outside the crosswalk. Furthermore, the defendant testified that he immediately applied his brakes when he saw the plaintiff dart into the street, but couldn't stop his car in time to avoid hitting him. In support of the defendant's testimony, the defendant calls a neighbor to testify that she has observed the plaintiff frequently during the years that she has lived on that street, and that the plaintiff \"always crosses the street outside the crosswalk. \"The neighbor's testimony is likely to be",
+    "choices": [
+      "admitted, because it tends to show that the plaintiff was careless.",
+      "admitted, because it is probative of the plaintiff's habit of crossing the street outside the crosswalk.",
+      "excluded, because the neighbor was not an eyewitness to the accident.",
+      "excluded, because her testimony is impermissible evidence of character to show defendant's plaintiff's conduct on a particular occasion."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 7,
+    "question": "Several persons together stole a painting from an art museum. One of them, who was the driver, was caught during the commission of another crime. He told police that \"I didn't even get any money from the art museum. It all went to the first guy and the second guy.\" When the first and second guy go on trial for the theft of the art painting, is the driver's statement admissible in court?",
+    "choices": [
+      "Yes, as an admission by a party opponent.",
+      "Yes, as a statement against the interests of the other defendants.",
+      "No, because it was made while in custody and therefore is unreliable.",
+      "No, because the statement was not made in the course of or in furtherance of the conspiracy and thus it is hearsay."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 8,
+    "question": "An avid baseball fan wanted to purchase tickets for an upcoming baseball game being held at the local stadium. He contacted the stadium's ticket sales office, which advised him that all tickets were to be placed on sale at the stadium at 9:00 a. m. the following day. The fan, who was employed as a bricklayer, realized that he could not leave work to purchase the tickets. Consequently, the fan telephoned his next-door neighbor and asked him if he would be interested in going to the stadium to purchase the baseball tickets. The neighbor told the fan that he would be happy to purchase the tickets for him and that he (the neighbor) also wanted to buy tickets for himself. However, the neighbor said that his car had broken down and that he did not have available transportation to get to the stadium. The fan suggested that he could lend his car to the neighbor. The neighbor agreed, and the following morning the two men met in front of the fan's home. The fan gave the neighbor the keys to his car and also money with which to buy his baseball tickets. Thereafter, the neighbor drove the fan's car to the stadium where he purchased the tickets for the fan and (using his own money) also bought a set of tickets for himself. The fan had instructed the neighbor to return the car to the fan's home after his trip to the stadium. After the neighbor left the stadium, however, he decided to visit a friend in a town located 120 miles from his home. As the neighbor was driving toward the town, an automobile crashed into him, causing significant damage to the fan's car. The cost of repairing the fan's car was determined to be more than the retail value of the auto. In an action by the fan against the neighbor to recover damages resulting from the accident, the fan will most likely",
+    "choices": [
+      "recover nothing, because the neighbor was on a joint venture when the accident occurred.",
+      "recover the cost of repairing the car.",
+      "recover the retail value of the car.",
+      "recover, because the neighbor was negligently operating the auto at the time of the accident."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 9,
+    "question": "A defendant, who was an indigent, was arrested and charged with possession of less than one ounce of marijuana. Under the relevant state statute, possession of less than one ounce of marijuana is a misdemeanor, punishable by a maximum of one year in jail and/or a fine of $500. At trial, the defendant pleaded not guilty and requested that an attorney be appointed to represent him. The trial judge refused to honor the defendant's request for an attorney. If the defendant is subsequently found guilty, which of the following is the most severe sentence that can constitutionally be imposed?",
+    "choices": [
+      "A $500 fine.",
+      "Six months in jail.",
+      "One year in jail.",
+      "No sentence, because the defendant was denied the right to counsel."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 10,
+    "question": "A motorist who was injured in an accident sued the negligent other driver for his damages. The defense medical expert did an independent medical examination and reviewed all medical records. The expert testified that the accident did not cause the injuries because the medical records proved a long history of prior treatment for the same symptoms. The jury returned a verdict for the plaintiff but awarded only $10 in damages. On post-trial motions, the plaintiff argued that the expert's testimony was inadmissible hearsay because he based it on prior treating physicians' records, and the prior doctors were not available for cross-examination. Under the Federal Rules of Evidence, what is the correct ruling?",
+    "choices": [
+      "Testimony regarding the plaintiff's condition prior to the accident is irrelevant and the testimony is inadmissible.",
+      "The Federal Rules of Evidence allow the admission of hearsay statements that were made for the purpose of medical diagnosis or treatment.",
+      "Medical testimony that is relevant to the issues can never by excluded from the defendant's case because it is always reliable.",
+      "The testimony is inadmissible hearsay because there was a constitutional right under these facts to cross-examine the doctors who wrote the prior records."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 11,
+    "question": "Seller says a circumstance has occurred that makes performing a sales contract impractical. Which of the following is not correct about discharge for impracticability?",
+    "choices": [
+      "The problem must not have been caused by the fault of the party seeking to invoke the defense.",
+      "A price increase is sufficient for discharge.",
+      "The failure to excuse performance would result in grave injustice.",
+      "The impracticality must go to a basic assumption on which the contract was made."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 12,
+    "question": "On Friday night, a driver was injured in an automobile accident after his vehicle was sideswiped by an unidentified motorist. Following the accident, the driver was admitted to the hospital where he was treated for his injuries. While at the hospital, the driver was diagnosed with a broken back. He was put in a body cast and then placed in traction. The driver's physician assembled the traction apparatus and positioned the driver's left leg in an overhead stirrup at a 40-degree angle. The driver was instructed to lie on his back on the bed. On Saturday morning after breakfast, the driver requested a bedpan from a nurse. She was placing the bedpan under the driver's body when the stirrup, which was holding his leg, broke. This caused the driver's leg to fall against the metal framing along the side of the bed, fracturing his tibia. The traction apparatus was defective because the manufacturer had not included a safety latch on the stirrup device to prevent its falling off if not securely fastened in place. If the driver asserts a claim against the manufacturer, he will most likely",
+    "choices": [
+      "prevail, because the stirrup broke while the traction apparatus was in normal use.",
+      "prevail, because the manufacturer's failure to include a safety latch made the traction apparatus defective.",
+      "not prevail, because the traction apparatus was no longer within the control of the manufacturer.",
+      "not prevail, if the physician did not properly attach the stirrup when assembling the traction apparatus."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 13,
+    "question": "A homeowner said to a roofer, \"My roof leaks. I think the old tiles are cracked. If you will replace them with all new tiles, I will pay you $5,000. \" The roofer replied, \"Sure, if I can clear my busy schedule. \" The homeowner then remarked, \"That's all right, but let me know soon. \" Three days later, the roofer drove his pickup truck to the homeowner's home and unloaded the materials and equipment needed to perform the roofing job. When the homeowner looked out his window and saw what was transpiring, he immediately ran outside and exclaimed, \"Stop! The deal's off. I decided to repair the roof myself. \"In an action by the roofer against the homeowner for breach of contract, which of the following would provide the roofer with his best theory of recovery?",
+    "choices": [
+      "A bilateral contract was formed when the roofer purchased the materials and equipment needed to do the job.",
+      "A bilateral contract was formed when the roofer said, \"Sure, if I can clear my busy schedule. \"",
+      "The homeowner made an offer that proposed a unilateral contract, and the offer became irrevocable when the roofer purchased the materials and equipment needed for the job.",
+      "The homeowner made an offer that proposed a unilateral contract, and the roofer manifested an intent to accept the offer when he began performance by unloading the materials and equipment at the homeowner's house."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 14,
+    "question": "A widower was the owner in fee of a 10-acre quarry. On August 1, the widower handed his friend a deed conveying the quarry to his niece and said to the friend, \"Give this to my niece. \" Unknown to the widower, the niece was in Africa. The next week, the friend properly recorded the deed with the Recorder's Office. One month later, the widower died, and in his will he devised the quarry to his daughter. Thereafter, the niece returned from Africa, and a dispute arose between the niece and the daughter regarding ownership of the quarry. In a suit to quiet title to the quarry, the court ruled in favor of the niece. The ruling was most likely based upon which of the following?",
+    "choices": [
+      "There was an effective \"causa mortis\" gift.",
+      "The delivery was effective when the widower handed the deed to the friend.",
+      "The delivery was effective when the friend recorded the deed.",
+      "The deed was recorded before the devise was effectuated."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 15,
+    "question": "A criminal actor committed the crime of solicitation. Which of the following does not apply to solicitation?",
+    "choices": [
+      "It is an agreement between two or more to commit a crime.",
+      "It is solicitation of another to commit a felony.",
+      "No act is needed other than the solicitation.",
+      "Withdrawal is generally not a defense."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 16,
+    "question": "Two men were told by the defendant that a medical devices company was now using the old warehouse on the river for storing its supply of defibrillators. Late one night, the two men broke into the warehouse and proceeded to load the large crates of defibrillators onto their truck. As they were leaving, one of the men inadvertently threw his cigarette butt into a refuse pile of old cardboard boxes and papers. Soon afterward, the refuse ignited into a small fire. Although the men had time to douse the fire without any danger to themselves, they did not do so. Instead, they fled. Meanwhile, the fire quickly spread, engulfing the entire warehouse in flames. If the defendant is later charged as a co-conspirator, in all likelihood he would be held responsible as",
+    "choices": [
+      "an accessory before the fact.",
+      "a principal in the second degree.",
+      "an accomplice.",
+      "not respbnsible."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 17,
+    "question": "A man was arrested and convicted of publishing paid newspaper advertisements giving information on how to get an abortion in another state and how to find a referral service. A criminal statute made it a crime to disseminate such information. Will the courts uphold the conviction?",
+    "choices": [
+      "No, the statute violates the sixth amendment right to privacy.",
+      "No, the statute violates the First Amendment right to publish protected commercial speech.",
+      "Yes, the right to an abortion does not include the right to publicize where to get one.",
+      "Yes, there is no right to publish or disseminate speech that is commercial in nature."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 18,
+    "question": "A famous environmentalist was the owner of a large tract of virgin forest. The environmentalist conveyed the tract \"to the people of the state in fee simple; provided, however, that if any portion of said tract shall ever be used or developed for any commercial purpose or otherwise converted from its natural state (with exception for recreational, scientific, or educational purposes), then the grantor or his successors in interest may re-enter as of the grantor's former estate. \"The interest of the state in the tract would be best described as a (an)",
+    "choices": [
+      "fee simple determinable.",
+      "fee simple subject to condition subsequent.",
+      "easement appurtenant.",
+      "determinable fee subject to an executory interest."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 19,
+    "question": "A contractor and home owner were bargaining on the price for the construction of a new home. The contractor made a number of offers for construction to the home owner including one for $100,000. Which of the following communications would not terminate the offer so that a subsequent acceptance could be effective",
+    "choices": [
+      "The home owner asks the contractor if they would be willing to build the house for $95,000.",
+      "The contractor contacts the home owner and states that the offer is withdrawn.",
+      "The contractor dies before the home owner accepts but the contractor's son intends to continue the business.",
+      "The home owner states \"I accept your offer but the price is to be $97,000.\""
+    ],
+    "answer": 0
+  },
+  {
+    "id": 20,
+    "question": "A defendant was suspected of having burglarized his neighbor's apartment. The neighbor reported that his apartment had been ransacked and several items of clothing had been stolen. During the course of their investigation, two police detectives went to the defendant's place of work to interview him. After being advised of his Miranda rights, the defendant requested permission to call his attorney. Although his attorney was unavailable, the attorney's receptionist admonished him not to say anything. The defendant told the detectives he would have nothing further to say unless his attorney was present. The detectives then asked him if he would accompany them to the police station to answer some questions about an unrelated robbery. The defendant agreed. As they were driving to the police station, the defendant was asked where he had purchased the boots that he was wearing. He refused to answer. When they arrived at the police station, the detectives requested that he sign a waiver of his right to counsel. The defendant replied that he would not sign anything in the absence of his attorney. He was then placed in an interrogation room. Shortly thereafter, the defendant was told he could leave if he would be willing to say where he had purchased his boots. The defendant admitted that he had bought the boots and some shirts from a friend. From this information, the detectives obtained a search warrant and went to the defendant's home where they found the stolen clothing. The defendant is charged with burglarizing the apartment. At trial, the court should",
+    "choices": [
+      "admit the confession because it was voluntary, and the clothing because it was obtained pursuant to a valid search warrant.",
+      "suppress the confession because it was obtained in violation of his Sixth Amendment right to counsel, but admit the clothing because it was obtained pursuant to a valid search warrant.",
+      "suppress the confession because the defendant failed to sign the waiver, but admit the clothing because it was obtained pursuant to a valid search warrant.",
+      "suppress the confession because it was obtained in violation of his Fifth Amendment right to counsel, and the clothing because the search warrant was secured as a result of the confession."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 21,
+    "question": "A woman was employed as a sales clerk at a department store. She worked in the women's lingerie section. One evening around closing time, the woman took a diamond necklace from a cabinetin the jewelry section of the department store and wrapped it in tissue paper. The woman then surreptitiously stuffed the necklace in a shopping bag, intending to remove it when she left the store. Moments later, the store owner approached the woman and told her she needed to stay late in order to do inventory. While the woman was completing inventory, the owner discovered the necklace and called the police. The woman is most likely guilty of",
+    "choices": [
+      "attempted larceny.",
+      "larceny.",
+      "false pretenses.",
+      "embezzlement."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 22,
+    "question": "A woman was in a public restroom at a mall. While the woman was at the sink, a man entered the restroom and told her not to make a sound. Frightened, the woman ran to an open window in the bathroom and jumped onto the fire escape. As she exited down the fire escape, the woman accidentally fell, bruising her legs. Which of the following crimes, if any, would the man most likely be convicted of?",
+    "choices": [
+      "Assault.",
+      "Battery.",
+      "Assault with intent to commit rape.",
+      "No crime."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 23,
+    "question": "A buyer purchased a gallon of nonfat milk from a market. The milk, which was sold in a plastic container, had been processed and packaged by a dairy. That evening, the buyer was preparing dinner and poured himself a glass of milk from the container purchased at the market. He then sat down to eat his meal and proceeded to take a mouthful of milk. As he did so, the buyer felt something furry lodge in his mouth. He immediately spat out the furry object and saw that it was a dead mouse. The buyer suffered severe emotional distress but did not suffer any physical illness or injury. If the buyer asserts a claim against the dairy based on negligent manufacturing, he will most likely",
+    "choices": [
+      "recover, because he suffered severe emotional distress.",
+      "recover, under the doctrine of res ipsa loquitur.",
+      "not recover, because the dairy's negligence only caused mental disturbance.",
+      "not recover, because the buyer's proper cause of action is for intentional infliction of mental distress."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 24,
+    "question": "After having several drinks in a bar, a man and his friend drove by a large home with its lights out. With the man sitting in the passenger seat, the friend pulled the car over. They were feeling drunk and aggressive from the drinks. After discussing it, they decided it was a safe bet to enter the home and see what they could take. They broke in and took several bags of jewelry. While driving away, they were stopped and arrested for burglary. The passenger used the defense that he was too intoxicated to form the specific intent to enter the home for the purpose of committing a felony therein. Do the facts described here indicate that the defense will likely prevail at a trial on the merits?",
+    "choices": [
+      "Yes, because he was in fact too intoxicated to form the intent needed to prove burglary.",
+      "No, because intoxication is never a defense to the commission of a felony.",
+      "No, because the facts indicate that he wasn't too intoxicated to form the necessary intent for burglary.",
+      "Yes, because the feeling of being drunk and aggressive were not his natural mental state and therefore mens rea was defeated."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 25,
+    "question": "A railroad worker's widow brought a wrongful death action in federal court against the railroad, claiming that its negligence had caused her husband's death. At trial, the widow offered the testimony of a coworker of the husband. The coworker testified that he had seen the rail car on which the husband was riding slow down and the cars behind it gain speed. The coworker also stated that he later heard a loud crash, but did not turn around to look because loud noises were common in the yard. Three other railroad employees testified that no collision had occurred. At the close of the evidence, the railroad moved for judgment as a matter of law, which was denied, and the case was submitted to the jury. The jury returned a verdict for the widow. The railroad has made a renewed motion for judgment as a matter of law. What standard should the court apply to determine how to rule on the motion?",
+    "choices": [
+      "Whether the evidence revealed a genuine dispute of material fact supporting the widow's claim.",
+      "Whether the verdict is against the weight of the evidence.",
+      "Whether the widow presented a scintilla of evidence to support the verdict.",
+      "Whether there is substantial evidence in the record to support the verdict, resolving all disputed issues in the widow's favor."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 26,
+    "question": "On February 1, a man dispatched the following letter to a mechanic:\"My car has not been running very well lately. I'll pay you $275 if you will change the oil, replace the oil filter, and adjust the carburetors by February 10. \"The mechanic received the man's letter on February 3. That same day, he telephoned an auto supply company and ordered the necessary materials to perform the repair work. Two days later, the mechanic met the man at a party and this conversation took place:The man: \"Disregard the letter I sent you last week. \"The mechanic: \"No way, man, I already ordered the materials on from the auto supply company. \"The man: \"Sorry, but I sold my car yesterday, so forget the repair work. \"If the mechanic initiates suit for breach of contract, which of the following is the man's strongest argument that no enforceable contract was formed between the parties?",
+    "choices": [
+      "The mechanic had not completed performance before the man revoked his offer.",
+      "The man's offer could only be accepted by a return promise.",
+      "Because the man made his offer by letter, the mechanic could accept only in the same manner.",
+      "Although the mechanic was preparing to perform the repair work, he had not begun the requested acts of acceptance when the man revoked his offer."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 27,
+    "question": "A plantiff sued a defendant for injuries suffered m a fall on the sidewalk of the defendant's home. The plaintiff's complaint alleged that the walk was covered by a thick sheet of ice, which had been negligently left there for several days by the defendant. In his answer, the defendant set forth that the ice formed overnight and that the plaintiff fell before the defendant had a chance to remove it. During the trial, a physician, whose office was next door to the defendant's home, testified that he saw the plaintiff fall and that the ice, which had been there for several days was at least two inches thick. On cross-examination, counsel for the defendant asked the physician the following question: \"During your treatment of the plaintiff on the day in question, is it not true that he told you his fall resulted from a loss of equilibrium after he suffered from dizziness?\"Upon objection by the plaintiff's attorney, the physician's testimony will be ruled",
+    "choices": [
+      "admissible, because it is reasonably pertinent to diagnosis or treatment.",
+      "admissible, because the physician had personal knowledge of the plaintiff's injuries.",
+      "inadmissible, because the defendant's counsel failed to lay a proper foundation.",
+      "inadmissible, because the physician's testimony is not relevant to prove that the plaintiff's alleged injuries are false or exaggerated."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 28,
+    "question": "On Thanksgiving Day, a father was carving a turkey for his family when he seriously cut his hand. The knife severed an artery, causing the father to lose a lot of blood. The mother telephoned their family doctor, who instructed her to drive the father to the local hospital. The doctor indicated that he would meet them there. A short time later at the hospital, the doctor treated the father and bandaged his hand. However, due to the fact that the father had lost a considerable amount of blood, the doctor ordered an immediate blood transfusion. After determining that the father's blood type was A-positive, the doctor orally instructed a nurse, who was employed by the hospital, to obtain the necessary blood for the transfusion. The nurse followed the doctor's instructions and telephoned the hospital's blood bank department and ordered a unit of A-positive blood. The person in the blood bank who received the nurse's call correctly wrote down the order for A-positive blood. However, someone working at the blood bank, whose identity cannot be determined, made an error in filling the order and labeling the unit of blood for the father. As a result, the blood bank sent a unit of B-positive blood mislabeled as A-positive blood. After being administered the wrong blood, the father died. The hospital has a written rule in effect whereby all orders for blood transfusions must be made in writing by the physician in charge of the patient's treatment. Although the doctor was aware of the hospital rule, he, like many other doctors at the hospital, frequently ordered blood transfusions by oral instructions. If the mother asserts a wrongful death action against the doctor, she will most likely",
+    "choices": [
+      "prevail, because the doctor would be responsible for the blood bank's error in administering the wrong blood.",
+      "prevail, because the doctor did not follow the hospital's rule regarding blood transfusion orders.",
+      "not prevail, because the doctor acted in the same fashion as many other doctors at the hospital.",
+      "not prevail, because the unidentified person in the blood bank who was responsible for sending the wrong blood type was not an employee of the doctor."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 29,
+    "question": "A young man called his casual friend to get together after work to go to a nearby ski lift. They each went up on the lift individually, because neither liked to share. Close to the top of the mountain, the friend fell off of his ski lift, and sustained injuries. The young man then decided he had had enough of skiing, but his friend called out, \"...you have to help! You have to call someone! I cant walk and it is your fault I am up here!\" The man did not respond and went home. His friend froze to death with no help ever coming to him. The people on the lift behind them both heard and saw everything, and the prosecutors office investigated the incident as a possible negligent homicide. What is the most likely decision of the prosecutor?",
+    "choices": [
+      "The prosecutor will not file charges because the two men were not related to each other in a way that might create a duty, nor was there a special relationship that would create a duty.",
+      "The prosecutor will not file charges because the man broke no laws when he walked away and it does not matter what the relationship was between them.",
+      "The prosecutor will file charges because there are eyewitnesses who will testify to the young man's callous behavior to his friend.",
+      "The prosecutor will file charges because their friendship was a special relationship that created a legal duty for the man to act."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 30,
+    "question": "A homeowner executed a deed by which he conveyed his home and surround property for a consideration of one dollar, receipt of which was acknowledged, \"to my daughter for life, then to my aunt for life, but if my aunt moves to another state, to my sister for the life of my aunt, then to the heirs of my aunt if my aunt does not move to another state, and to the heirs of my sister if my aunt does move to another state. \" This deed was promptly recorded. During the daughter's lifetime, the aunt's interest may best be described as a",
+    "choices": [
+      "contingent remainder.",
+      "shifting executory interest.",
+      "vested remainder subject to complete divestiture.",
+      "vested remainder subject to partial divestiture."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 31,
+    "question": "A state on the eastern seaboard has a long stretch of scenic, ecologically unique, and relatively unspoiled seacoast. Most of the coastline is privately owned by persons who have permanent or vacation residences on their coastal lands. A man purchased a two-acre tract of littoral (i. e. , coastal) land in the state. When the man bought the property, there was a narrow concrete walkway (about 20 feet in length and 5 feet in width) adjoining the land. The walkway, which was designed to provide pedestrian access to the beach, was owned by the State Coastal Commission. When the man moved into his beach house, he noticed that the walkway was rarely used. As a result, the man decided to enclose the walkway and construct a paddle ball court over the entire area. He did so without notifying the State Coastal Commission. He has continued to use this area in excess of the period required for adverse possession. In an appropriate action brought by the man to establish title to the walkway area, which of the following must he establish if he is to prevail?",
+    "choices": [
+      "Real property interests can be abandoned by a governmental entity without an official vote.",
+      "Lack of use of the walkway by the state created an irrevocable license in him.",
+      "Real property interests can be lost by a state by adverse possession.",
+      "Due to a defect in the chain of title, the state does not own this piece of land."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 32,
+    "question": "A city ordinance provides that it shall be unlawful for any person to litter in a public park, and that a violation of this ordinance shall be punished by a fine of not more than $100 or imprisonment for not more than 30 days. A protestor organized a demonstration against federal governmental support to rebels in a foreign country. The rally took place in a city park, and attracted about 100 supporters. During the rally, the protestor delivered a speech to the attendees. At the conclusion of his speech, the protestor said, \"I'm sick and tired of the garbage this administration is getting away with. Here's what I think about its policy of rebel aid . . . \" At which point, the protestor walked over to a trash can and dumped its contents on the ground. As the crowd cheered wildly, the protestor shouted, \"No more rebel aid . . . let's stop this garbage now!\" After littering the park, the protestor and his supporters left without picking up the trash. As a matter of constitutional law, may the protestor be prosecuted under the aforementioned city ordinance for littering the public park?",
+    "choices": [
+      "No, because littering the park in these circumstances could be construed as symbolic speech and, thus, it is protected from government regulation by the First and Fourteenth Amendments.",
+      "No, because the facts do not indicate that the protestor's actions presented a clear and present danger that was likely to produce or incite imminent lawless action, thereby necessitating an abridgment of his freedom of speech.",
+      "Yes, because the city ordinance advances an important and legitimate public interest and is not directed at the suppression of communication.",
+      "Yes, because littering the park is conduct, not speech and, therefore, it may not be treated by the law as communication."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 33,
+    "question": "Because of a sudden and unanticipated severe shortage of heating fuel, the President has ordered all offices of federal executive agencies to be open only four days per week. The President's order allows an exception to the extent that emergency circumstances require different hours of operation (as in the case of federal hospitals). When Congress enacted the appropriations statute for operating all federal executive agencies, its members assumed that the offices of those agencies would be open five days per week, but Congress did not include such a requirement in its appropriations statute or in any other statute. Is the President's order constitutional?",
+    "choices": [
+      "No, because the heads of the various executive agencies have final responsibility for the operation of those agencies' offices.",
+      "No, because when they passed the statute appropriating monies for the operation of executive agencies, members of Congress assumed that those agencies' offices would be open five days per week.",
+      "Yes, because the Constitution vests the President with plenary authority to direct the administration of all federal agencies in any manner the President deems expedient.",
+      "Yes, because the order relates to the management of the executive branch and is not prohibited by any statute."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 34,
+    "question": "There may be a substantial time period between contract formation and final completion of performance. Concerning these executory contracts, which of the following is the least correct?",
+    "choices": [
+      "A wholly executory contract is where only promises have been exchanged and there has been no performance by either party.",
+      "A partially executed contract means that one party has completed performance while the other party has only promised.",
+      "An executed contract exists when both parties have fully performed and no obligations remain.",
+      "A partially executed contract means that at least one party has begun performance."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 35,
+    "question": "A mushroom farmer agreed in a signed writing on January 2 to deliver to a chef at a local restaurant on March 1 a specified quantity of mushrooms at a specified price. The mushrooms on the farmer's farm were usually picked and packaged by the farmer's three sons. On February 27, two of the Sons were injured in a fanning accident and hospitalized. As a result, the farmer encountered a manpower shortage and could not process all of the mushrooms for the chef's order. On February 28, the farmer telephoned the chef and said, \"Because my two sons were injured yesterday, I won't be able to deliver your mushrooms on March 1. However, I am trying to hire some other farm hands to help process your order. Although I can't promise it, I should be able to deliver the mushrooms by the end of the week. \" The chef, who knew that the fanner's sons were responsible for the mushroom farming, said, \"No problem. I think I'll be able to get by without them for a few days. However, be advised that I will hold you liable for any loss I sustain as a result of your failure to deliver the mushrooms on March 1 . \" When the chef failed to receive the mushrooms on March 5, he sent the following fax to the fanner:\"I must have the mushrooms no later than March 9. \" This fax was received and read by the farmer on the same day. If the fanner delivers the mushrooms to the chef on March 9 and the chef accepts them, can the chef successfully maintain a contract action against the farmer to recover damages resulting from the delay in delivery?",
+    "choices": [
+      "No, because temporary impracticability excused his duty to deliver the mushrooms on March 1.",
+      "No, because the buyer's statements and acceptance of the mushrooms constituted a waiver of the condition of timely delivery.",
+      "Yes, because his statements to the farmer did not constitute a promise to forgo any cause of action he then had or might later acquire.",
+      "Yes, because there was no consideration to support his waiver, if any, of timely delivery."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 36,
+    "question": "In which of the following situations is the defendant's conduct most likely to make him criminally responsible for the victim's death?",
+    "choices": [
+      "A defendant shot a victim in the head. The victim was then taken to a hospital for treatment of the wound. An earthquake later struck the city, causing the hospital to collapse. The victim was crushed to death in the rubble.",
+      "A defendant and a victim lived in the same apartment building. The defendant knew that the victim was having a love affair with a married woman. One day, the defendant learned that the victim was to be murdered by the married woman's husband. Although the defendant had ample time to warn the victim, he failed to do so. That night, the victim was stabbed to death by the husband.",
+      "A victim, who was a gambler, was heavily in debt to the mob. The defendant, who was a mob enforcer, threatened to kill the victim if he didn't pay up. Frightened, the victim boarded the next airplane flight out of town. The airplane crashed, and the victim was killed.",
+      "A defendant and a victim were driving to work together when the defendant, without provocation, stabbed the victim in the arm. The defendant then pushed him out of the car. The victim fell along the side of the street and fractured his ankle. Unable to move from the roadway, the victim was fatally crushed a half-hour later by a car driven by a drunk driver."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 37,
+    "question": "A 15-year-old boy was sledding down a pathway through a wooded area of land owned by a woman. The boy had frequently used the pathway for sledding in the previous months. The path, made of concrete, led through the woods from a public highway to a pond in the rear of the woman's property. The pathway was used for sledding and the pond for skating by the residents of the neighboring areas, without the consent of the woman. Furthermore, the woman failed to post any signs forbidding trespassing. After the boy had been sledding down the pathway for approximately three hours one morning, he lost control of the sled, and steered it into a tree. The boy suffered serious injuries in the crash. If a suit is brought on the boy's behalf against the woman for the boy's personal injuries, the plaintiff will",
+    "choices": [
+      "recover, under the \"attractive nuisance\" doctrine.",
+      "recover, because the woman knew or should have known of the frequent trespasses.",
+      "not recover, because the boy was a trespasser.",
+      "not recover, because a 15-year-old boy should have realized the risk."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 38,
+    "question": "A debtor owed a creditor $15,000 on a debt that had been discharged by the debtor's bankruptcy the previous year. The debtor wrote a letter to the creditor stating that he would pay the creditor $10,000 received from the proceeds of the sale of his house in payment of the discharged debt. One week later, the debtor learned that the person who had contracted to buy his house reneged on the deal. As a result, the debtor refused to pay anything to the creditor. If the creditor sues the debtor for breach of contract, he should be entitled to recover",
+    "choices": [
+      "nothing.",
+      "$10,000. 00",
+      "$10,000, only if the debtor is successful in suing the person who had contracted to buy his house.",
+      "$15,000. 00"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 39,
+    "question": "A property owner held title in fee simple to a tract of 20 acres located outside the boundaries of the city. Thereafter, the property owner constructed a shopping center on the property and leased commercial buildings and parking facilities to various tenants. The shopping center, which was located near a public high school, attracted many teenagers who often loitered in the parking lot. The youths frequently harassed shoppers and damaged autos by breaking off windshield wipers and radio antennas. Customarily, the local police department patrolled the shopping center and drove by three or four times each day. This, however, did not prevent the teenagers from hanging out at the shopping center. One afternoon, a shopper was shopping at the center when an unidentified youth damaged her car by throwing a rock through the back window. The shopper brings an action against the property owner to recover for the damage to her auto. She will most likely",
+    "choices": [
+      "prevail, unless the person who was responsible for damaging her car can be identified.",
+      "prevail, if the damage to her car could have been prevented had the property owner taken reasonable security measures.",
+      "not prevail, because the car was damaged by the malicious acts of an independent third person.",
+      "not prevail, because the local police had the primary duty to provide security protection at the shopping area."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 40,
+    "question": "An environmentalist was very interested in environmental issues, particularly protection of wetland areas. He decided to dig out the lawn in his back yard and turn the space into a swampy marsh. Eventually, his back yard was filled with tall grasses, reeds, and other marsh plants. A wide variety of frogs, turtles, snakes, birds, and other animals inhabited the yard. The ground was usually covered by several inches of standing water. The environmentalist's neighbors were not pleased with the condition of the environmentalist's yard. They complained that it produced foul odors, and they claimed that the standing water was a breeding ground for mosquitoes and other insects. Several months after the environmentalist converted his yard into a marsh, a real estate investor purchased the house closest to the environmentalist's back yard swamp. The investor lived in a large city several hundred miles away, and he purchased the house next to the environmentalist's for investment purposes. The investor rented the house to a family under a long-term lease. The tenant family complained frequently to the investor about being annoyed by the environmentalist's yard. If the investor asserts a nuisance claim against the environmentalist, the environmentalist's best defense would be",
+    "choices": [
+      "that he had sound environmental reasons for maintaining the swampy condition of his yard.",
+      "that turning his yard into a swampy marsh did not violate any zoning ordinance.",
+      "that the investor owns the property but has rented it out, so the investor does not have actual possession or the right to immediate possession of the land.",
+      "that when the investor purchased the house, he knew or should have known about the swampy condition of the environmentalist's property."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 41,
+    "question": "A police officer was employed on a city's police force for 10 years. When the officer accepted the job, the city's employee benefit plan provided a death benefit to the spouse of any employee who died as a result of any job-related injury. Last year, the city amended its employee benefit plan to deny its death benefit in cases where the death \"was caused by the employee's refusal to accept, for any reason other than its excessive risk to life or health, reasonably available medical care prescribed by a physician.\" After this amendment took effect, the officer was shot while on duty. Because of a sincerely held religious belief, the officer refused to allow a prescribed blood transfusion and, as a result, died from loss of blood. When the officer's spouse applied for the death benefit, the city denied the application on the basis of the amendment to the employee benefit plan. The officer's spouse has challenged the amendment, claiming that, as applied to the officer, it violated the officer's constitutional right to the free exercise of religion. Is the court likely to find the amendment to the employee benefit plan constitutional as applied to the officer?",
+    "choices": [
+      "No, because it effectively discriminates against a religious practice.",
+      "No, because it violates the vested contractual rights of city employees who were hired before the amendment took effect.",
+      "Yes, because it does not single out religious reasons for the denial of benefits and is a reasonable limitation on the award of such benefits.",
+      "Yes, because it imposes a condition only on the award of a government benefit and does not impose a penalty on an individual's conduct."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 42,
+    "question": "Police received information from a reliable informant that a defendant would be extorting money from a victim. The informant gave the police explicit details about the extortion scheme: the defendant would be calling the victim from a public phone booth on a particular street corner on a certain date and time to make the extortionist demand. Without notif'ing the telephone company or seeking a warrant, the police installed an eavesdropping device on the public phone. At the time on the date specified by the informant, the defendant phoned the victim from the telephone booth and said, \"You better pay me $5,000 by next week or I'll kill you and your family. \" The defendant provided additional details about how and where to make the payoff. Based on the taped conversation, the police arrested the defendant and charged him with extortion. Prior to trial, the defendant's attorney moves to exclude the taped conversation from evidence. The defense motion should be",
+    "choices": [
+      "granted, because the police did not secure a warrant before installing the eavesdropping device.",
+      "granted, because the police did not obtain prior approval of the telephone company before installing the eavesdropping device.",
+      "denied, because the defendant did not have reasonable expectation of privacy.",
+      "denied, because the police had probable cause based on the information supplied by the informant."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 43,
+    "question": "A man and a woman were driving eastbound along a steep two-lane winding highway. The woman was driving in front of the man. As the man approached the rear of the woman's car, he became impatient and tried to pass her along a section of the highway designated as a no-passing zone. When the man swerved his car into the westbound lane to pass the woman, he didn't see another driver, who was rounding a curve in the westbound lane. In order to avoid a head-on collision with the man, the other driver swerved his car to the shoulder of the roadway. The other driver, however, was unable to control his car along the narrow strip of the shoulder, and it fell down the steep mountain. The man and the woman both saw the other driver's car slide down the hillside. They immediately stopped their vehicles and walked over to the edge of the roadway looking for the car. They saw the other driver's car overturned in a gully about 200 feet down the mountain. The man and the woman heard the other driver moaning and calling for help. However, the man and the woman failed to provide any assistance. They walked back to their cars and drove off. Although the man and the woman passed through a business area a short while later, they neither reported the accident nor sought aid for the other driver. Hours later, the other driver died from injuries suffered in the accident. If the man and the woman are subsequently prosecuted for the other driver's death, the most likely outcome would be that",
+    "choices": [
+      "the man and the woman are both guilty of manslaughter.",
+      "the man is guilty of manslaughter only.",
+      "the woman is guilty of manslaughter only.",
+      "neither the man nor the woman is guilty of manslaughter."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 44,
+    "question": "A man mailed a letter to a woman promising to sell her his motorcycle for $1,000. After receiving the letter, the woman sent the man a fax that stated, \"The price is a little high, I'll give you $800. \" The man responded by fax, \"I will not accept $800. \" The next day, the woman telephoned the man and said, \"I changed my mind, I will pay $1,000 for the motorcycle. \" The man refused to sell the woman his motorcycle. If the woman sues the man for breach of contract, which of the following defenses would be the man's best defense?",
+    "choices": [
+      "Since the woman's purported acceptance was oral, it constituted a different mode of communication from the written offer.",
+      "The contract was unenforceable under the statute of frauds, because the woman's purported acceptance was oral.",
+      "The woman's counter offer terminated her power of acceptance.",
+      "The man's rejection of the woman's counter offer terminated the woman's power of acceptance."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 45,
+    "question": "An investor owned substantial oil and mineral interests in the Rocky Mountains. In July 1990, the investor acquired title to a 100-acre tract located just outside the city limits in a rural area. In 1997, the investor decided to sell his vast ranching and oil interests in the Rocky Mountains. In July, the investor conveyed the tract for a consideration of one dollar, receipt of which was acknowledged, \"to my nephew, his heirs, and assigns, but if my nephew's wife dies without issue, to my chef and her heirs and assigns. \"After taking possession of the 100-acre tract, the nephew discovered considerable oil reserves on the property. He then began oil drilling operations and removed large quantities of oil, which he sold. At no time did he give notice to the chef of his oil-drilling activities. Months passed before the chef learned that the nephew was selling oil from the drilling operations. The chef has now brought an action in equity for an accounting of the value of the oil removed and for an injunction against any further oil removal. If the nephew's wife died without issue before the beginning of the nephew's oil drilling operations, would this improve the likelihood of the chef's success than if the wife were still alive?",
+    "choices": [
+      "No, because the right to remove oil is an incident of the right to possession.",
+      "No, because the nature of the nephew's estate would not be altered by the wife's death.",
+      "Yes, because the wife's death without issue would convert the nephew's fee into a reversionary interest.",
+      "Yes, because although the nephew still has a fee, it would now be certain to terminate."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 46,
+    "question": "A regular customer at a lounge is aware that the owner customarily keeps a gun hidden behind the bar. One night the customer was sitting at the bar and ordered a club soda. After serving him, the owner walked to the other end of the bar to wait on another customer. As he did so, the customer leaned over the bar and grabbed the gun. The customer pointed the gun at the owner and said, \"This is a robbery. . . hand over all your money. \"Knowing the gun was unloaded, the owner refused to comply. The customer dropped the gun and ran out of the bar. Besides larceny of the gun, the customer will be convicted of",
+    "choices": [
+      "attempted larceny.",
+      "attempted robbery.",
+      "assault.",
+      "assault and attempted larceny."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 47,
+    "question": "A city has adopted the following ordinance which provides:\"Section 1: It shall be unlawful for any person, group, or organization to hold a meeting of 50 persons or more in any city park without first securing a city permit;Section 2: The application shall specify the day and hours for which the permit is sought. The fee shall be $10 per hour, with a maximum fee of $50;Section 3: Permits shall be issued on a first come basis; provided that the chief of police shall deny any application if, after hearing the applicant, it is his considered judgment that the meeting would create serious traffic congestion. \"An anarchist planned to hold an antigovernment protest demonstration at a city square. Although his previous antigovernment protest rallies attracted fewer than 15 demonstrators, he decided to apply for a permit pursuant to the city ordinance. After meeting with the anarchist, the chief of police denied his permit application because he believed that the demonstration would incite the protestors and threaten imminent violence or serious disorder. On October 4, the anarchist and his fellow demonstrators staged their antigovemment protest at a city park. The rally attracted only about 17 protestors and was conducted peacefully. As the anarchist was making his final remarks to the gathering, the city police arrived at the park and arrested him and his fellow demonstrators, charging them with violating the city ordinance. In a subsequent action by the anarchist in state court challenging the constitutionality of Sections 1 and 2 of the city ordinance, the court will most likely rule these sections",
+    "choices": [
+      "constitutional, because a state may regulate the communicative impact of speech related conduct.",
+      "constitutional, because the aforementioned sections are within the ambit of the state's police power.",
+      "unconstitutional, because the statute is vague and overbroad.",
+      "unconstitutional, because the statute is a content based regulation ofspeech."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 48,
+    "question": "A man, his nephew, and his son are the owners of three contiguous lots in the city. A downward slope exists from the man's land to the son's land. The man's and the nephew's lots were in an unimproved natural state. The son, however, had lived for 10 years in a house that he had built on his property. In 2009, the man planted trees and shrubbery on his land along the boundary of the nephew's lot. In 2010, the nephew, in preparation for building a house on his lot, carefully excavated an area eight feet deep for the purpose of building a basement. The side of the excavation closest to the man  nephew boundary suddenly collapsed, and a quantity of the man's soil, trees, and shrubbery fell into the hole. The nephew hauled away the debris. In an appropriate action by the man against the nephew to recover for the damage to his land, judgment should be for whom?",
+    "choices": [
+      "The nephew, if he was conducting the excavation work non-negligently.",
+      "The nephew, because he was under no duty to support the man's land in its improved state.",
+      "The man, because a landowner is entitled to support of his land in its natural condition.",
+      "The man, because a landowner has an absolute right to have his land supported by the neighboring land."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 49,
+    "question": "A city has adopted ordinance 172 which provides:\"Section 1: It shall be unlawful for any person, group, or organization to hold a meeting of 50 persons or more in any city park without first securing a city permit;Section 2: The application shall specify the day and hours for which the permit is sought. The fee shall be $10 per hour, with a maximum fee of $50;Section 3: Permits shall be issued on a first come basis; provided that the police chief shall deny any application if, after hearing the applicant, it is his considered judgment that (a) the meeting would create serious traffic congestion, or (b) interfere with public enjoyment of the park, or (c) speakers at the meeting would advocate the commission of crime. \"A foreign exchange student planned to hold a demonstration at park in the city. Although the student's previous protest rallies attracted fewer than 25 demonstrators, he decided to apply for a permit pursuant to city ordinance 172. After meeting with the student, the chief of police denied his permit application because he believed that the demonstration would incite the protestors and threaten imminent violence or serious disorder. Subsequently, the student and his fellow demonstrators staged their rally at the park. The rally attracted only about 20 protestors and was conducted peacefully. As the student was making his final remarks to the gathering, the police arrived at the park and arrested the student and his fellow demonstrators charging them with violating ordinance 172. Which of the following would be the most accurate statement with regard to the arrest of the student and the other demonstrators?",
+    "choices": [
+      "The police were justified in arresting the student, because he and his fellow demonstrators violated the ordinance by staging the rally.",
+      "The police were justified in halting the rally and arresting the demonstrators, because of the threat of imminent physical disturbance.",
+      "The police were not justified in arresting the student and the demonstrators, because they did not violate the ordinance.",
+      "The police were not justified in arresting the student, because the group was not required to comply with the ordinance."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 50,
+    "question": "A man committed a series of heinous crimes, including a kidnapping, that took him across state lines and violated federal law. He was convicted and received a life sentence. The felon, however, was pardoned by the President of the United States, who was a childhood friend. A great hue and cry ensued, and the talking heads on television proclaimed that legislation was needed to prevent such injustice again. Would such legislation be constitutional?",
+    "choices": [
+      "No. While what the president did wasn't a good idea, the Constitution expressly grants the President an unqualified power to pardon.",
+      "Yes, under Article I.",
+      "Yes, under Article II",
+      "Yes, because Congress can put limits on the pardon power."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 51,
+    "question": "A state statute made it a crime to be addicted to the use of narcotic drugs. A man was arrested and charged with the crime of drug addiction. Two officers testified that they examined \"track\" marks on the defendant's arms and wrists, and that he admitted to past drug usage. The accused testified that he was not an addict and the marks were from an allergic reaction. The trial court instructed the jury that it could find him guilty on proof that he was an addict, without proof of drug usage. The jury did not believe the defendant's denials, and found him guilty based on the observed track marks. The court sentenced him to six months imprisonment. He appealed, claiming cruel and unusual punishment prohibited by the Eighth and Fourteenth Amendments of the United States Constitution. Will the conviction likely be reversed on appeal?",
+    "choices": [
+      "No, because the arrest is based on the regular use of illegal narcotics and is a proper concern of the criminal law.",
+      "No, because the state has the power to forbid the use of narcotics within its borders and that's what this statute does.",
+      "Yes, because the statute makes it criminal to use illegal drugs, which constitutes cruel and unusual punishment.",
+      "Yes, because the statute punishes having the illness of drug addiction, which is like punishing someone for having a cold, and it is thus cruel and unusual punishment."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 52,
+    "question": "A teenage girl was walking on a street in a retail area. She was carrying a purse and shopping bags. A police officer noticed her and, on a hunch, conducted a random search. He found a variety of jewelry with price tags and no receipts. A jewelry store owner in the vicinity stated that the jewelry was stolen a few minutes earlier, and the girl may have been a customer at that time. She was arrested for theft. The girl's counsel filed a motion to suppress the evidence. Will the judge likely order suppression of the evidence?",
+    "choices": [
+      "Yes, there was no reasonable suspicion or probable cause for the officer to stop and search her.",
+      "No, authorities are always allowed to stop and frisk' anyone to see what they are carrying.",
+      "No, the search was legal because a teenager carrying bags on a downtown street is a suspicious person.",
+      "Yes, the officer did not get a search warrant even though he had probable cause."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 53,
+    "question": "A college student owns an expensive sports car. His friend called him up one afternoon and asked to borrow his car for a date he had that night. The college student generously lent the car to his friend. On his way home from the date, basking in the memories of a beautiful evening, the friend lost control of the car and hit a pedestrian. As a result of the accident, and after learning that the friend had no money and no insurance, the pedestrian brought suit against the college student to recover for his injuries. He asserted a claim against the college student for negligent entrustment of a vehicle. During his case, the pedestrian introduced evidence that the friend had been in several previous accidents. In his defense, the college student offered the testimony of his girlfriend that the college student frequently lent his car to his friend. The girlfriend further testified that the college student gave his friend permission to use his car only after determining that the friend was a careful and attentive driver. The girlfriend's testimony is",
+    "choices": [
+      "admissible as evidence of habit.",
+      "admissible as a present sense impression.",
+      "inadmissible, because it goes to the college student's character.",
+      "inadmissible, because she is biased."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 54,
+    "question": "A cattle rancher owned substantial oil and mineral interests in the southwest. In July 1990, the rancher acquired title to a 200-acre tract in a rural area. In 1997, the rancher conveyed the 200-acre tract for a consideration of one dollar, receipt of which was acknowledged, \"to my uncle, his heirs, and assigns, but if my uncle's wife dies without issue, to my personal assistant and her heirs and assigns. \"After taking possession of the 200-acre tract, the uncle discovered considerable oil reserves on the property. He then began oil drilling operations and removed large quantities of oil, which he sold. At no time did he give notice to the personal assistant of his oil-drilling activities. Months passed before the personal assistant learned that the uncle was selling oil from the drilling operations. The personal assistant has now brought an action in equity for an accounting of the value of the oil removed and for an injunction against any further oil removal. If the decision is in favor of the uncle, it will be based on the fact that",
+    "choices": [
+      "the right to remove oil is an incident of a defeasible fee simple.",
+      "the personal assistant has no interest in the 200-acre tract.",
+      "there was no showing that the uncle acted in bad faith.",
+      "the right to remove oil is an incident of the right to possession."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 55,
+    "question": "The local jurisdiction has a modified comparative negligence statutein effect that provides:\"Contributory negligence shall not bar recovery in any action by any person or his legal representative to recover damages for negligence resulting in death or injury to person or property, if such negligence was not as great as the negligence of the person against whom recovery is sought, but any damages allowed shall be diminished in proportion to the amount of negligence attributable to the person for whose injury, damage, or death recovery is made. \"In addition, this jurisdiction follows joint and several liability for joint tortfeasors. A buyer recently purchased an undeveloped beachfront lot in the jurisdiction. He hired a building contractor to construct a new house on the property. Thereafter, the contractor employed a subcontractor to provide on-site maintenance. The contractor contracted with a cement company to supply concrete for the foundation of the structure. After excavation started, an employee of the cement company delivered a load of concrete to the construction site. To facilitate delivery, the contractor and the subcontractor had built an access ramp extending from the street to the lot. As the employee was driving over the ramp, it suddenly collapsed and caused the truck to overturn, seriously injuring the employee. A subsequent investigation determined that the contractor and the subcontractor negligently used substandard materials in constructing the ramp. In addition, the employee was partially at fault for driving while intoxicated. The employee brought suit against the contractor and the subcontractor to recover damages for his injuries. A special trial was held on the issue of negligence, and it was adjudged that each party was contributorily negligent as follows:PARTY DEGREE OF NEGLIGENCEPlaintiff: (the EE) 40%Defendant: (the contractor) 35%Defendant: (the subcontractor) 25%The employee, who suffered damages in the amount of $100,000, brings a personal injury action against the contractor individually. He will most likely",
+    "choices": [
+      "recover nothing, because he was more at fault than the contractor.",
+      "recover $100,000.",
+      "recover $55,000.",
+      "recover $35,000."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 56,
+    "question": "A consumer watchdog group presented petitions to the state legislature bearing the signatures of over 10,000 state residents complaining about the recent increases in the cost of cable television. A corporation who provides cable television services successfully persuaded the state legislature to grant it an exclusive right to install cable television lines in all multiple family dwellings in the state, in exchange for the corporation's promise to freeze cable television rates for the next four years. An owner of several large multifamily apartment buildings in the state brought an action in federal district court challenging the constitutionality of the state legislation. The suit claimed that the space used by the corporation when it subsequently installed cable television lines in one of his apartment buildings amounted to a taking without compensation. In this action, the owner will be awarded",
+    "choices": [
+      "no relief, because easements for utility lines are presumed to be beneficial to the servient estate.",
+      "no relief, because the legislation is merely a regulation of the use of property and not a taking.",
+      "no relief, because the corporation is not a government entity.",
+      "damages for the value of property used by the corporation."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 57,
+    "question": "In an action for malpractice, a plaintiff sued a doctor, claiming that the latter failed to properly diagnose his emphysema condition. The plaintiff contends that he went to the doctor for a medical examination after experiencing chest pains and shortness of breath. However, the doctor found no evidence of the disease and advised him that he was probably suffering from indigestion. Thereafter, the plaintiff was examined by another doctor who discovered that the plaintiff in fact was suffering from a chronic case of emphysema. At trial, the plaintiff calls the other doctor as his first witness. The other doctor proposes to testify the x-rays of the plaintiff's lungs showed that his respiratory organs were marked by distension, which was characteristic of emphysema. Upon objection by the defendant's attorney, the testimony should be",
+    "choices": [
+      "admitted, because a doctor is properly qualified as an expert in medical matters.",
+      "admitted, because the other doctor followed accepted medical practice in arriving at his opinion.",
+      "excluded, because his opinion is based upon facts not in evidence.",
+      "excluded, because the x-rays are the best evidence to show the distension of the plaintiff's lungs."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 58,
+    "question": "A state law required vacant public school buildings to be sold at auction to the highest bidder. A church in a city located in the state wanted to acquire larger facilities for its school. The city's school board proposed a new state law that would authorize it to sell a vacant public school building, at a price below its fair market value, to the church for use as its school. If enacted, would this law be constitutional?",
+    "choices": [
+      "No, because a statute specially authorizing the sale of the building without competitive bidding would violate the equal protection clause of the Fourteenth Amendment.",
+      "No, because the transfer of the building to the church under these circumstances would constitute an establishment of religion prohibited by the First and Fourteenth Amendments.",
+      "Yes, because surplus government property is not subject to the limitations imposed by the establishment clause as incorporated into the establishment clause as incorporated into the Fourteenth Amendment.",
+      "Yes, because the law would not primarily or substantially support the religious activities of the church."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 59,
+    "question": "At 1:00 a. m. one night, two police officers were driving past a tavern when they noticed a man vomiting outside. They stopped their patrol car and walked over to the man, whom they recognized as a troublemaker from the neighboring town. Realizing that the man was extremely intoxicated, they grabbed him and shoved him into their patrol car. They drove the man around in the police car for a few minutes and told him he had two choices. They would either take him to jail for the night or drive him to the city limits and drop him off there. The man indicated that he didn't want to go to jail. One of the officers then said, \"Does that mean you want us to drop you off at the city limits?\" The man replied, \"Yes. \" They then drove him to the city limits and left him along a busy highway. Moments later, the man staggered onto the street and was struck by a car driven by a motorist. He suffered multiple injuries. If the man asserts a claim against the police department based on negligence, he will most likely",
+    "choices": [
+      "recover, because the police should have realized it was dangerous to drop him off where they did.",
+      "recover, because the police knew that the man was intoxicated when they dropped him off.",
+      "not recover, because the man chose to be driven to the city limits.",
+      "not recover, because the motorist's act was a supervening cause of his injury."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 60,
+    "question": "A bank loaned a company $1,500,000 for the manufacture of a widget control system. As a condition of the loan, a majority shareholder in the company agreed in writing to personally guarantee the loan. Thereafter, the company defaulted on the loan and entered into a repayment agreement with the bank. This agreement provided that the bank would \"use maximum efforts in selling the company's assets at the highest possible price. \" The bank proceeded to sell the company's assets, discharging the indebtedness of the widget company. Later, it was ascertained that the bank did not realize the \"highest possible price\" in administering the sale of the company's assets. Consequently, the shareholder was forced into bankruptcy and lost her entire investment in the company. The shareholder brings an appropriate action against the bank to recover her investment in the company. She will most likely",
+    "choices": [
+      "not prevail, because the shareholder was an incidental beneficiary of the bank's sale of the company's assets.",
+      "not prevail, because the bank's sale of the company's assets discharged whatever contractual relationship existed between the shareholder and the bank.",
+      "prevail, because the bank did not realize the highest possible price from the sale of the cornpany's assets.",
+      "prevail, because the bank breached its fiduciary duty to the shareholder under the terms of the contract between the bank and the company."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 61,
+    "question": "Believing she was pregnant, a woman went to see a doctor, a licensed gynecologist, because she wanted an abortion. The doctor examined her and determined that she was not pregnant, but decided that he would tell her she was, in order to earn his $500 fee. After receiving the $500, the doctor proceeded to have the woman admitted to a hospital by falsely informing the hospital authorities that she had a benign tumor on her uterus, which he was going to remove. He performed all the surgical procedures appropriate for an abortion under adequate hygienic conditions, but the woman began hemorrhaging and died. The doctor should be found guilty of",
+    "choices": [
+      "murder and larceny by trick.",
+      "manslaughter and false pretenses.",
+      "battery and larceny by trick.",
+      "murder, battery, and false pretenses."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 62,
+    "question": "In which of the following situations does the best evidence rule generally not apply?",
+    "choices": [
+      "Collateral matters",
+      "Public records",
+      "When it's not offered to prove the contents of the document",
+      "All of the above."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 63,
+    "question": "A property owner agreed to sell one of his real estate parcels to a neighbor. He wrote up an agreement of sale with the sale price of $200,000 and he signed the document. The neighbor took it and returned with a bank check for the full amount, demanding that the deed be tendered. The property owner then decided that the terms were not reasonable and he returned the money and refused to tender a deed. Neighbor sued for specific performance. The property owner defended on the basis that the neighbor did not accept the agreement's terms and did not sign the document. Neighbor sued for specific performance of the transaction. Is the court likely to rule in favor of the neighbor?",
+    "choices": [
+      "No, because the neighbor did not expressly state that he accepted the agreement.",
+      "No, because the neighbor had to put his signature on the document to make it a binding contract.",
+      "Yes, because neighbor manifested his assent by his conduct of tendering the full sale price, at which point a contract existed.",
+      "Yes, because the property owner created a binding contract when he prepared an agreement containing the agreed terms."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 64,
+    "question": "Client has an estate that reads \"To A on condition that if drugs are ever used on premises, B shall have the right to reenter and retake the premises.\" What is NOT true about this kind of estate?",
+    "choices": [
+      "It is a fee simple determinable, and title ends automatically if drugs are used.",
+      "It is a fee simple subject to condition subsequent, which requires a reentry first before title can end.",
+      "Estate does not revert automatically.",
+      "Grantor must exercise right of reentry."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 65,
+    "question": "A young boy was one of the players on a little league baseball team. The boy's father hated the coach because he rarely gave his son any playing time. The boy was mostly a benchwarmer who played only an inning or two during the game. One night, the father hid behind some shrubbery in front of the coach's home. Armed with a baseball bat, the father intended to break the coach's kneecaps when he came home from work. A man, who resembled the coach, was walking down the street. The father mistakenly believed that this man was the coach. The father jumped out of the bushes and hit the man in the kneecaps with the baseball bat. The man, who was a hemophiliac, died as a result of the injuries suffered in the beating. The father is",
+    "choices": [
+      "guilty of attempted murder of the coach and the murder of the man.",
+      "guilty of attempted murder of both the coach and the man.",
+      "guilty of attempted manslaughter of the coach and murder of the man.",
+      "guilty of attempted battery of the coach and murder of the man."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 66,
+    "question": "While on routine patrol, police officers observed a driver make an illegal U-turn. After stopping the driver's car, they observed him reach under the driver's seat. They ordered him out of the car and saw a cellophane package protruding from under the seat. The package contained a white powdery substance, which the officers suspected to be cocaine. The officers placed the driver under arrest and put him in the rear of their patrol car. They then proceeded to search the rest of the driver's car. In the trunk they found an assault rifle that was later determined to be the weapon used in a liquor store robbery. Charged with that robbery, the driver moved to suppress the assault rifle as evidence on the grounds that the police did not have a warrant to search the trunk. The best theory that the prosecution can use in support of the admissibility of the assault rifle as evidence is that",
+    "choices": [
+      "the police conducted an automobile search.",
+      "the police conducted an inventory search.",
+      "the search was incident to a lawful arrest.",
+      "the search was made under exigent circumstances."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 67,
+    "question": "There is a voting law that is going to be reviewed by the court. If the law is upheld, what must be true?",
+    "choices": [
+      "The law is necessary to achieve a compelling government purpose.",
+      "The law is substantially related to an important government purpose.",
+      "The law is rationally related to a legitimate government purpose.",
+      "The law is substantially related to a legitimate government purpose."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 68,
+    "question": "Wilshire Street is a public thoroughfare, designated as a one-way street for northbound traffic. Wilshire and Figueroa Streets intersect at right angles. The intersection is controlled by traffic lights. A businessman was driving his car east on Figueroa Street and did not see the traffic light. He entered the intersection at a time when the light was red for eastbound traffic and green for northbound traffic. A woman, in violation of statute, was proceeding south on Wilshire Street, and she entered the intersection without looking for any cross traffic and struck the businessman's car. The businessman suffered damages in the amount of $5,000. The woman, on the other hand, suffered damages in the amount of $1,000. The businessman brought suit against the woman to recover his damages. The woman denied liability and filed a counterclaim against the businessman for her damages. Both drivers were negligent with 30 percent of the negligence attributable to the woman and 70 percent of the negligence attributable to the businessman. A statute in the jurisdiction provides: \"A failure to exercise ordinary care, which contributes to personal injury or property damage, shall not bar recovery of damages by the injured party, but damages shall be diminished in proportion to the amount of negligence attributable to the person injured. There shall be no set-off of damages between the respective parties. \" Which of the following is the appropriate judgment in the case?",
+    "choices": [
+      "The businessman recovers $5,000 from the woman, and the woman recovers $1,000 from the businessman.",
+      "The businessman recovers $3,500 from the woman, and the woman recovers $300 from the businessman.",
+      "The businessman recovers $1,500 from the woman, and the woman recovers $700 from the businessman.",
+      "The businessman recovers $800 from the woman, and the woman recovers nothing from the businessman."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 69,
+    "question": "A seat in a movie theater collapsed, causing the customer sitting in that seat to fall to the ground and suffer a back injury. In a personal injury action by the customer against the theater, the customer will most likely",
+    "choices": [
+      "recover, because the theater was under an absolute duty of care to make the premises safe for the protection of its customers.",
+      "recover, only if the theater had prior knowledge of the dangerous condition of the seat.",
+      "not recover, because the theater was under no obligation to inspect the premises to discover unknown dangers.",
+      "not recover, unless the theater failed to make a reasonable inspection of the seats for the safety of its customers."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 70,
+    "question": "A law student contacted a tutor about the possibility of hiring the tutor to help the law student prepare for his upcoming finals. The tutor sent the law student a copy of the tutor's standard tutorial agreement. The agreement stated that the tutor's rate was $50 per one-hour session. The law student then telephoned the tutor and said, \"This agreement looks fine to me. I'd like you to give me 10 sessions over the next 10 days. \" The tutor replied, That will be fine. Fill in 10 sessions on the agreement, sign it, and bring it to me tomorrow when we have our first session. \" The student then said, \"I want you to really push me to do my best. In fact, if I get an A in any class I'll pay you an additional $100 for each A. \"The next day, the law student brought the signed agreement to the tutorial session. The tutor conducted all 10 sessions. Two weeks later, when the results of the finals were released, the law student excitedly called the tutor and exclaimed, \"Thank you so much I just found out that I received two A's and two B's in my classes!\" The tutor then sent the law student a bill for $700. Two days later the tutor received a check from the law student in the amount of $500. Included with the check was a note which read, \"You taught me contract law very well. I now know that I am not obligated to pay you the additional $200 for the A's, because that was just a gratuitous promise. \" On the back of the check the law student typed the following:\"Endorsement of this check by payee constitutes surrender of all claims against me arising out of our tutorial arrangement. \"In need of money, the tutor endorsed and cashed the check. What is the probable legal effect of the tutor's endorsement of the check?",
+    "choices": [
+      "It constituted a discharge of a liquidated claim.",
+      "It constituted an accord and satisfaction of an unliquidated claim.",
+      "Part payment of a liquidated claim would not constitute a discharge of the entire amount due.",
+      "Part payment of an unliquidated claim does not constitute sufficient consideration for the discharge of the entire claim."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 71,
+    "question": "A relevant fact in a plaintiff's suit is the magnitude of an explosion at an oil refinery one evening. At trial, the plaintiff was asked on direct examination if he remembered the explosion. He replied, \"I recall my son running into the home and screaming that the car windows just shattered. \" The son was available to testify at trial. The defendant's attorney makes a motion to strike the plaintiff's answer. The trial judge should rule the plaintiff's testimony",
+    "choices": [
+      "admissible, because the son is available as a witness.",
+      "admissible, whether or not the son is available as a witness.",
+      "inadmissible as hearsay not within any recognized exception.",
+      "inadmissible under the excited utterance exception, because it can be a product of reflection and deliberation."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 72,
+    "question": "A man was in an accident while driving his car on July 3. The other driver sent him a notice of injuries and demanded damages. The man notified his insurance carrier but was told that his policy had lapsed on July 2. He had earlier received a renewal notice with a bill listing a due date of June 28 and an expiration date of the policy on July 2. The notice welcomed payment by mail, and did not say that renewal was conditioned on actual physical receipt of the check. He had put the check and form in the U.S. mail on June 28, but the insurer did not receive it until July 5. The insurer reinstated the policy as of July 5, leaving a coverage gap from July 2 through July 5, according to the company. Will the courts likely hold that the policy was still effective on July 3, the date of the accident?",
+    "choices": [
+      "Yes, because the renewal premium was placed in the mailbox before the date of expiration, and the notice did not say that the check had to be received physically before there could be a renewal.",
+      "Yes, because a policy cannot be lapsed for nonpayment without a final 30 day notice of impending lapse being sent.",
+      "No, the man knew that the policy would not be renewed if did not get the payment into the insurer's possession by the due date of June 28.",
+      "No, because the mail box rule is not applicable in a situation where an insurance policy must be renewed."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 73,
+    "question": "An obese woman signed up for a weight loss program that promised weight loss down to her medicallyrecommended range. The promotional material claimed patented methods and nutritional supplements that were a \"miraculous discovery\" that would work for anyone within 24 months. The cost was $1,000 per month; the woman paid a total of $24,000 for two years but she lost only 6 pounds and remained excessively obese. A former program employee told her that there was no patent, no miraculous discovery, and the supplements were the same as a common vitamin brand. She sued the program for misrepresentation. Will she likely prevail?",
+    "choices": [
+      "No, because statements that are mere \"puffing\" or opinions cannot be the basis for misrepresentation.",
+      "Yes, because the program had a fiduciary duty to make full disclosure to her of all of the facts.",
+      "No, because she did not justifiably rely on the incredible representations that were made.",
+      "Yes, because the program knowingly made false factual representations that the customer relied on."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 74,
+    "question": "One afternoon a motorist was driving her car when she struck a pedestrian who entered the intersection. The pedestrian was seriously injured in the accident and sued the motorist to recover damages for personal injuries. There were no witnesses to the accident. The motorist claims that the traffic light was green at the time she entered the intersection. The pedestrian now has amnesia and cannot remember how the accident occurred. At trial, the pedestrian's attorney calls a witness to testify. The witness proposes to testify that she was in the emergency room at the hospital when the pedestrian was brought in following the accident. The witness further testifies that while the pedestrian was being treated for his injuries, the nurse asked him, \"How did you get hurt?\" The pedestrian replied, \"The car ran the red light and struck me as I was walking through the intersection. \"Upon objection, this evidence is",
+    "choices": [
+      "admissible as a statement made for purposes of medical treatment and diagnosis.",
+      "admissible as a present sense impression.",
+      "inadmissible, because the witness was eavesdropping on a confidential communication between the pedestrian and a hospital representative.",
+      "inadmissible, because it is hearsay not within any recognized exception."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 75,
+    "question": "During a federal grand jury investigation into money laundering, a man's business and tax records were subpoenaed by the government. The man invokes his Fifth Amendment privilege against self- incrimination to prevent production of the records in his possession. The court would most likely",
+    "choices": [
+      "compel production of the records, because the Fifth Amendment is inapplicable.",
+      "order a preliminary hearing to determine if the man has grounds to invoke the Fifth Amendment.",
+      "permit the man to exercise his Fifth Amendment privilege, since such records may have the same incriminating effect as testimony.",
+      "admit the records under the business records exception to the hearsay rule."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 76,
+    "question": "Defendant is on trial. Which of the following, if occurs, would NOT cause a due process violation in the trial?",
+    "choices": [
+      "The trial is conducted in a way that jurors would not be able to give evidence reasonable consideration.",
+      "The defendant is compelled to stand trial in street clothing.",
+      "The defendant is compelled to stand trial or appear at penalty phase proceedings visibly shackled (unless there are security concerns).",
+      "Jurors are exposed to influence favorable to the prosecution."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 77,
+    "question": "A fish seller agreed to sell 800 pounds of a very rare sushi to a wholesale buyer. However, the seller agreed with his associate that they would obtain 800 pounds of white fish instead, and tint the white fish with food colors to give it the appearance of the exotic sushi. The real sushi is about 10 times the value of the whitefish. The buyer had signed a contract with the fish seller to purchase the sushi. The seller's associate purchased the white fish and brought it back to seller's fish store to perform the coloring process. When the two men were mixing the colors but before they added it to the fish, an undercover FBI agent who worked on the premises and had recorded some of their discussions, arrested them for conspiracy and attempted criminal fraud. The accused filed a motion to dismiss the attempted fraud charge, arguing that they had not gone far enough for an attempt under the general principles of criminal attempt. Considering those principles, is the trial court likly to grant the motion to dismiss the attempt charge?",
+    "choices": [
+      "Yes, because the law of attempt requires more substantial action toward the completion of the crimes then the accused men accomplished under these facts.",
+      "Yes, because the fish would have to be delivered to the buyer and payment received from him for there to be a completed attempt.",
+      "No, because the act of purchasing the fish and taking it to seller's facility with the criminal intent to color it is sufficient proof of criminal attempt to allow the case to go to the jury.",
+      "No, because the agreement to commit criminal fraud by the two co-conspirators, combined with the act of mixing the colors, constituted sufficient proof of an attempt to commit the crime."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 78,
+    "question": "A mail clerk domiciled in State A slipped and fell on ice that had formed near the loading dock of the building in State B where the clerk's State B employer leased space for its headquarters. The building was owned and operated by a State C corporation. As a result of the fall, the clerk was injured and the employer's expensive computer he was carrying was badly damaged. The clerk sued the building owner for negligence in a federal district court in State B, seeking $100,000 in personal-injury damages. The employer has filed a timely motion to intervene, asserting an $80,000 negligence claim against the building owner for the damage to its computer. Is the court likely to grant the employer's motion to intervene?",
+    "choices": [
+      "No, because although the employer has an interest in the clerk's action, that interest is not likely to be impaired in the employer's absence.",
+      "No, because the clerk chose not to join the employer as a co-plaintiff in his action.",
+      "Yes, because the employer is an indispensable party.",
+      "Yes, because the employer's claim shares common questions of law and fact with the clerk's action."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 79,
+    "question": "A writer sent a four-page synopsis of an idea for a new television series to a Hollywood producer. He sent it in response to an ad for new ideas in an industry publication. He discussed it with the producer's assistant in a phone call, and mentioned his expectation of compensation. She said, \"Well, of course, we always pay for a writer's work.\" She said she would go over it with her boss to see if he liked it. Several months later, the writer saw a casting call for a new series. The plot and characters were nearly identical to those described in his synopsis. He sued the producer for breach of contract. The producer defended by arguing that there was no contract. What is the likely ruling of the court?",
+    "choices": [
+      "The court will rule that there is an express contract because there was a meeting of the mind and mutual assent to the basic terms.",
+      "The court will rule that there was an implied in fact contract between the parties based on the conduct that they manifested.",
+      "The court will rule that there was no consideration specifically mentioned and under those circumstances, the law viewed the synopsis as a gift to the producer.",
+      "There were too many terms left out for this to be a contract, and it was too indefinite for the court to imply what the terms might have been."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 80,
+    "question": "A highway patrol officer stopped a driver for speeding and found that her license was suspended. He arrested her for driving while under suspension and secured her in the rear seat of the squad car. He then searched the car where he found several bags of cocaine inside a coat that was setting on the rear seat; he arrested her for possession and possession with intent to deliver cocaine. Prior to trial, the driver moved for suppression of the cocaine. Is it likely that the trial court will grant the suppression motion?",
+    "choices": [
+      "Yes, it must be suppressed because this was an unreasonable, warrantless search.",
+      "No, the motion will be denied because the search was permissible as incident to a proper arrest.",
+      "No, the motion will be denied because the initial traffic stop was legal and everything that flowed therefrom was a reasonable step to search for crime.",
+      "Yes, the motion will be granted because a search of a vehicle requires a search warrant unless there are exceptional exigent circumstances."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 81,
+    "question": "A purchasing agent for a women's clothing store negotiated a contract with dressmaking company to purchase a specified quantity of khaki garments at a price of $75,000. One week later, the purchasing agent received a telephone call from the vice president of the dressmaking company, who informed her that the dressmaking company's sales representative had made an error in calculating the contract price. As a result, the vice president said that unless the women's clothing store agreed to pay an additional $15,000, the garments would not be delivered. If the purchasing agent should have known that the dressmaking company's original price term of $75,000 was in error, but agreed to the contract anyway, which of the following is the most accurate statement?",
+    "choices": [
+      "There was an enforceable contract at the original price term, because the mistake resulted from an error in computation, not in judgment.",
+      "There was an enforceable contract at the original price term, because the mistake was unilateral.",
+      "There was no valid contract formed, because there was no mutuality of assent.",
+      "There was a voidable contract, because the purchasing agent should have known of the error."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 82,
+    "question": "A developer, owner of several hundred acres in a rural part of the county, drafted a general development plan for the area. The duly recorded plan imposed elaborate limitations and restrictions upon the land in the plan, which was to be developed as a residential district. The restrictions were to extend to all persons acquiring any of the lots and to their heirs, assigns, and lessees. It was further provided that all subsequent owners would be charged with due notice of the restrictions. Among those restrictions in the general plan were the following:(22) A franchise right is created in a strip of land 10 feet in width along the rear of each lot for the use of public utility companies with right of ingress and egress. (23) No house or structure of any kind shall be built on the aforementioned strip of land running through the said blocks. The franchise right created for public utilitycompanies would most likely be an example of a(an)",
+    "choices": [
+      "license.",
+      "equitable servitude.",
+      "easement appurtenant.",
+      "easement in gross."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 83,
+    "question": "An indigent man was suffering from a chronic asthmatic and bronchial illness. The man redomiciled to a new state and shortly thereafter suffered a severe respiratory attack and was sent by his attending physician to a nonprofit private community hospital. Pursuant to a state statute governing medical care for indigents, the hospital notified county officials that it had in its hospital an indigent who might qualif' for county care and requested that the man be transferred to the county's public hospital facility. In accordance with the approved procedures, the private hospital claimed reimbursement from the county in the amount of $1,069 for the care and services it had provided. Under the relevant state statute:\"Individual county governments are charged with the mandatory duty of providing necessary hospital and medical care for their indigent sick. In order to qualif' for such hospital and medical care, an indigent shall be resident of the county for the preceding 12 months in order to be eligible for free non-emergency medical care. \"As a consequence, the county refused to admit the man to its public hospital or to reimburse the private hospital because the man had not been a resident of the county for the preceding year. In an action in federal court against the county challenging the constitutionality of the residency requirement for providing free medical care for indigents, the court will most likely declare the statute",
+    "choices": [
+      "constitutional, because the statute promotes a compelling state interest.",
+      "constitutional, because the statute is a proper exercise of state action.",
+      "constitutional, because the statute is within the state's police power to regulate the health, safety, and welfare of its citizens.",
+      "unconstitutional, because it violates the equal protection clause of the Fourteenth Amendment."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 84,
+    "question": "A pharmacist was employed by a drug store. A long-time customer of the drug store presented a prescription to the pharmacist for the medication Clinoril, which was prescribed by her physician to treat her arthritic condition. The pharmacist was in a rush that day because of a backlog of prescriptions to fill, and he misread the customer's prescription. He filled her prescription with Clinitest, a caustic substance not for internal use. He labeled the container with the instructions for Clinoril: \"Take one tablet twice a day. \"The customer followed the instructions, consumed the Clinitest, and suffered severe injuries to her stomach and esophagus. If the customer brings a strict liability in tort action against the pharmacist, what is his best defense?",
+    "choices": [
+      "It was the cashier and not he who personally received the money for the medication.",
+      "He was not a seller of the product upon whom strict liability may be imposed.",
+      "He exercised reasonable care under the circumstances.",
+      "The drug store was not the manufacturer upon whom ultimate liability falls."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 85,
+    "question": "A defendant was arrested and charged with arson, which in this jurisdiction is defined as the \"malicious or intentional burning of any structure or dwelling. \" When the defendant was arrested, he was inside a warehouse that was engulfed in flames. At the time he was apprehended, the police found in his possession a book of matches with four matches missing. At trial, the prosecution introduced the book of matches into evidence. Following closing arguments, and before the jury retired for deliberations, the judge gave instructions concerning the law of the case. The judge instructed the jury that it could infer the defendant's intent to set the fire based on the fact that four matches were missing from the matchbook. This instruction was specifically objected to by the defense counsel. The judge's jury instruction concerning the defendant's intent was",
+    "choices": [
+      "proper, because it constituted a rebuttable presumption of fact.",
+      "proper, because it constituted a permissible inference.",
+      "improper, because the prosecution must prove each element of the crime beyond a reasonable doubt.",
+      "improper, because the instruction shifts the burden of persuasion from the prosecution to the defendant defense."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 86,
+    "question": "A surgeon operated on a patient in an operating room in the Marina General Hospital. The surgeon was assisted by an intern, who was assigned to the operation by the hospital, and a nurse, who was on the staff of the hospital. During the patient's convalescence, the patient complained of pain not explicable as an ordinary post-operative symptom. On investigation, it turned out that the intern and nurse, who had worked together in bandaging him, had done so in such a way as to constrict certain blood vessels. The faulty bandaging had caused acute pain and retarded the patient's recovery. After the patient's eventual recovery, he sued the intern, claiming $20,000 in damages. Before the case went to trial, the patient and intern agreed to a settlement in which the intern paid the patient $12,000, and the patient released the intern from all further claims for liability arising out of the incident. If the intern brings suit against the nurse for contribution, the most likely result is that the intern will",
+    "choices": [
+      "prevail, because one who settles without judgment can recover contribution.",
+      "prevail, because the nurse's liability is established under res ipsa loquitur",
+      "not prevail, because one who settles without judgment cannot recover contribution.",
+      "not prevail, because the intern's proper remedy is indemnification, not contribution."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 87,
+    "question": "A plat restriction in a residential subdivision stated that \"no structure shall be built except for dwelling purposes.\" A dwelling was erected on one of the lots. Later, the owner of the dwelling attempted to use it as a dental office. The other owners in the subdivision asked the court to enjoin the intended use. Leaving aside zoning issues, will the court likely grant the request to prohibit the intended use?",
+    "choices": [
+      "No, the wording is ambiguous and therefore any use is now permitted.",
+      "The wording only restricts the building of the structure and does not restrict its later use so that the owner is entitled to change the use.",
+      "The intention was to enforce a residential use of the property so that the intended change in use will not be allowed.",
+      "A professional use of a building cannot be prohibited by a land restriction.f"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 88,
+    "question": "An investor owned a four-story office building located in downtown. The building was old and badly in need of renovation. To finance the improvements, the investor borrowed $125,000 from his friend. As consideration for the loan, the investor executed a promissory note for $125,000 payable to the friend in one year and secured by a mortgage on the building. The mortgage was dated January 1, and was recorded January 2. Thereafter, on February 1, the investor executed a deed absolute on the building and named the friend as grantee. This deed, although absolute in form, was intended only as additional security for the payment of the debt. In order to make judicial foreclosure unnecessary and to eliminate the right to redeem, the investor then delivered the deed to his nephew in escrow with instructions to deliver the deed to the friend if the investor failed to pay his promissory note at maturity. On January 1 of the following year, the investor failed to pay the note when it came due. Thereupon, the nephew, in accordance with the escrow instructions, delivered the investor's deed on the office building to the friend, which the friend promptly and properly recorded. Two weeks later, the investor tendered the $125,000 indebtedness to the friend. When the friend refused to accept it, the investor brought an appropriate action to set aside and cancel the deed absolute and to permit the redemption of the building from the friend. Conversely, the friend counterclaimed to quiet title and argued that the deed absolute was intended as an outright conveyance upon default. The court should enter a judgment that will grant the relief sought by",
+    "choices": [
+      "the investor, but only if the investor can establish that the mortgage takes precedence over the deed absolute because it was executed earlier in time.",
+      "the investor, because the deed absolute did not extinguish his right of redemption.",
+      "the friend, because the deed absolute effectuated an outright conveyance that extinguished the redemption interest sought to be retained by the investor.",
+      "the friend, because the investor is estopped to deny the effect of the deed absolute in conjunction with the escrow arrangement."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 89,
+    "question": "After a severe thunderstorm had struck the area, a homeowner discovered that her roof had suffered extensive damage. She telephoned a roofer to inquire about having the necessary repairs done to her roof. The roofer agreed to finish the work within 30 days, and the homeowner promised to pay$10,000. Which of the following statements is most accurate?",
+    "choices": [
+      "The performance of the roofer would be a constructive condition precedent to the performance by the homeowner.",
+      "The performance by the homeowner would be an implied condition subsequent to the performance by the roofer.",
+      "The performances of the homeowner and the roofer would be constructive concurrent conditions.",
+      "The contract would be unenforceable, because it was oral."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 90,
+    "question": "An accountant had an office on the eighth floor of a downtown building. The accountant wanted to have renovations done to the entrance to the office. He hired an interior designer to do the work. The designer told the accountant that he had several options for the type of glass to be used in the door to the office. He could use half-inch thick plate glass, which would look nice and be relatively inexpensive. On the other hand, he could use tempered glass, which would cost twice as much but would be five times stronger than plate glass, more difficult to scratch, and capable of withstanding a blow from a hammer. The designer explained that the great majority of residential and small business establishments use plate glass for such doors. The accountant chose to go with the plate glass. The accountant ordered a plate glass door from a manufacturer and had the designer install the door when it arrived. A few months later, the door shattered when one of the accountant's clients pulled on the handle to open it. The glass cut the client's hand. If the client asserts a claim against the accountant based on negligence and establishes negligent manufacture of the glass door by the manufacturer that was not discoverable through reasonable inspection, the plaintiff will",
+    "choices": [
+      "prevail, because the accountant is liable for its supplier's negligence.",
+      "prevail, because the accountant instructed the designer to install plate glass rather than the more durable tempered glass.",
+      "not prevail, because the accountant could not reasonably have been expected to discover the defect.",
+      "not prevail, because the proper defendant is the manufacturer or the designer, not the accountant."
+    ],
+    "answer": 2
+  },
+  {
+    "id": 91,
+    "question": "A federal statute provides states with funds for child welfare programs, subject to the condition that such programs be administered in accordance with federal standards. The United States sued a state in federal court for injunctive relief, arguing that the state's child welfare programs, which were funded in part by federal funds disbursed under this statute, failed to comply with federal standards. The state has moved to dismiss the action. Is the court likely to dismiss the action?",
+    "choices": [
+      "No, because Congress can place any condition on the receipt of federal funds.",
+      "No, because the Eleventh Amendment does not bar actions brought by the United States.",
+      "Yes, because the Eleventh Amendment bars actions against a state in federal court.",
+      "Yes, because the protection of child welfare is reserved to the states."
+    ],
+    "answer": 1
+  },
+  {
+    "id": 92,
+    "question": "On February 1, a man conveys his orchard to a gardener, and the gardener duly records the conveyance. The following day, the gardener conveys the property to a landscaper; she does not record her deed. Then on February 4, the gardener executes an identical conveyance of the orchard to a friend. The friend gives the gardener a check for $100,000 for the property and records the conveyance, even though he has actual knowledge of the prior conveyance to the landscaper. The landscaper, however, records her deed on February 6. The friend then conveys his interest in the farm to an investor, who gives a purchase price of $115,000 to the friend. On February 5, the investor purchases the farm without notice of the conveyance to the landscaper and duly records the deed. Suppose that the jurisdiction in which the property is located has a pure race statute as their deed recordation law. Under these circumstances, which of the aforementioned parties would ultimately prevail?",
+    "choices": [
+      "The investor.",
+      "The landscaper.",
+      "The friend.",
+      "The gardener."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 93,
+    "question": "In which of the following situations is the defendant most likely to be found guilty of manslaughter rather than murder?",
+    "choices": [
+      "Not intending to kill, a defendant hits a person over the head with a pipe. As a result, the person dies from head injuries.",
+      "Not intending to kill, a defendant throws a large chunk of ice off an overpass onto a busy freeway below. The chunk of ice crashes through a windshield, killing a driver.",
+      "Not intending to kill, a defendant kidnaps a victim and takes her to a remote area of the desert. The defendant then drives off, leaving victim alone in the sweltering heat after the ransom is not paid. The next day, the victim dies from exposure because she is unable to reach the nearest town eight miles away.",
+      "Not intending to kill, a defendant punches a victim in the face, causing the victim to fall backwards and strike his head on a curb, killing him."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 94,
+    "question": "A man is charged with murder. During the trial, defense counsel offers the testimony of a man on death row admitting he hired another man to shoot the victim. The testimony is",
+    "choices": [
+      "not hearsay.",
+      "hearsay, but admissible as an admission.",
+      "hearsay, but admissible as a dying declaration.",
+      "hearsay not within any recognized exception."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 95,
+    "question": "A bakery incorporated and headquartered in State A had a dispute with a mill incorporated and headquartered in State B over the quality of the flour the mill had delivered to the bakery. The bakery sued the mill in a federal court in State A for breach of contract, seeking $100,000 in damages. The contract between the bakery and the mill contained a clause designating State B courts as the sole venue for litigating disputes arising under the contract. Under precedent of the highest court in State A, forum-selection clauses are unenforceable as against public policy; under U.S. Supreme Court precedent, such clauses are enforceable. The mill has moved to transfer the case to a federal court in State B, citing the forum-selection clause in the parties' contract and asserting the facts that the flour was produced in State B and that the majority of likely witnesses are in State B. Is the court likely to grant the mill's motion?",
+    "choices": [
+      "No, because State A law treats forum- selection clauses as unenforceable.",
+      "No, because the mill should have instead filed a motion to dismiss for improper venue.",
+      "Yes, because federal common law makes the forum-selection clause controlling.",
+      "Yes, because federal law governs transfers of venue, and it would be more convenient for the witnesses and parties to litigate the claim in State B."
+    ],
+    "answer": 3
+  },
+  {
+    "id": 96,
+    "question": "A couple were married, and four months later, they wished to obtain a divorce. However, the state in which they were married prohibits a couple from obtaining a divorce until they have resided in the state for at least 12 months. In an action by the couple challenging the constitutionality of the residency requirement of the state divorce law, the court will most likely declare the provision",
+    "choices": [
+      "constitutional, because the requirement promotes a compelling state interest.",
+      "constitutional, because it is within the area of state action.",
+      "unconstitutional, because it constitutes a violation of the equal protection clause.",
+      "unconstitutional, because it constitutes a violation of the privileges and immunities clause of Article IV, Section 2."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 97,
+    "question": "A defendant was convicted of assault of a federal officer and imprisoned in a federal penitentiary. While in prison, federal authorities began investigating the murder of the defendant's 11-year- old stepdaughter who was murdered two years earlier. Believing that the defendant was responsible for this killing, federal agents decided to plant an informant at the prison to befriend the defendant and possibly obtain evidence about the crime. In accord with this plan, the federal agents hired a paid informant and placed him in the prison as a fellow inmate, masquerading as an organized crime figure. The informant soon befriended the defendant and learned that he was being threatened by other inmates because of a rumor that he had killed a child. The informant then raised the subject in several conversations, but the defendant repeatedly denied any such involvement. After the defendant started receiving tough treatment from other inmates because of the rumor, the informant offered to protect the defendant but told him, \"You have to tell me the truth about what really happened you know, if you want me to help you. \" Believing that the informant would protect him from the other inmates, the defendant then admitted to the informant that he had driven his stepdaughter to the desert where he killed her. Based upon this confession, the defendant was then indicted for the first-degree murder of his stepdaughter. Prior to trial, the defendant moves to suppress the statement given to the informant. Should the defendant's motion be granted?",
+    "choices": [
+      "Yes, because the confession was coerced by the threat of physical violence, absent protection from the informant that motivated the defendant to confess.",
+      "Yes, because the informant was a false friend, and the defendant was tricked into making the confession.",
+      "No, because the confession was voluntary.",
+      "No, because under the totality of circumstances, the informant's conduct was not inherently coercive."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 98,
+    "question": "A customer in a restaurant ordered a bowl of the restaurant's famous homemade Manhattan clam chowder. While eating the chowder, the customer broke a tooth on a pebble in the soup, which a reasonable inspection would not have discovered. When the customer complained to the restaurant's owner, the owner admitted that the chowder was not, in fact, homemade, but that it had been poured from a can of chowder purchased from a wholesale distributor of food products. In a strict liability action by the customer against the restaurant, he will most likely",
+    "choices": [
+      "recover, if a reasonable consumer would not expect the presence of such a pebble in the chowder.",
+      "recover, but only if the restaurant had received prior notice of the defective condition of the soup.",
+      "not recover, because a reasonable inspection of the soup would not have disclosed the existence of the pebble.",
+      "not recover, because the soup would not constitute an unreasonably dangerous product when it was served to the customer."
+    ],
+    "answer": 0
+  },
+  {
+    "id": 99,
+    "question": "On Monday, a man told a gardener, \"I am having a party on Sunday and I want my house to look good. If you will promise to mow my lawn by Saturday, I will pay you $50. \" On Friday, the gardener arrived at the man's home just as the man was leaving for work and began to mow the man's lawn. The man said nothing to the gardener but drove off as he saw the gardener unloading his lawn mower. When the man arrived home from work that evening, he noticed that only half of his lawn had been mowed. He then found a note from the gardener slipped into his mailbox. The note said:\"Sorry, but I ran out of gas to power the lawn mower and did not have time to buy more gas to finish the job. I'm taking the weekend off, but I will be back Monday morning to finish the job. \"If the man brings suit against the gardener for breach of contract, who is likely to prevail?",
+    "choices": [
+      "The gardener, because he never accepted the offer made by the man.",
+      "The gardener, because he offered to cure the defective performance by finishing the job on Monday morning.",
+      "The man, because the gardener's part performance necessarily implied an acceptance and a promise that he would render complete performance.",
+      "The man, because under the doctrine of equitable estoppel, the gardener's part performance was evidence of his intent to honor the entire contract."
+    ],
+    "answer": 2
+  }
+]
