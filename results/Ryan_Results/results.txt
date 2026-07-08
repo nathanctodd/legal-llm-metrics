@@ -1,0 +1,8 @@
+Claims WITH a citation attached:    43 / 102  (up from 0)
+Corpus-level recall:                0.4216
+
+By type:
+  case_law           n=4   resolved=100%   (all 4 were real: Miranda, etc.)
+  statute (U.S.C.)   n=5   resolved=100%   (all 5 were real federal citations)
+  named_instrument   n=34  resolved=0%     (by design — unverifiable, not fake)
+
